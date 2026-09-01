@@ -310,7 +310,7 @@ Se completó el campo *Datasheet* de los 18 componentes que faltaban. Ahora
 
 | Ref | Parte elegida | Nota |
 |---|---|---|
-| J14 | Quectel **EG25GGB-MINIPCIE** | versión Mini PCIe del EG25-G |
+| J14 | Quectel **MM60-52B1-E1-R650 (zócalo JAE, ~28k stock)** | versión Mini PCIe del EG25-G |
 | J17 | Amphenol **L717SDE09PA4CH4F** | DE9 macho acodado, solder cup |
 | U11 | TI **MAX3232IDR** | SOIC-16 |
 | R20,R21 (10k) / R24,R26 (1k) | Stackpole RMCF1206FT10K0 / FT1K00 | 1206 |
@@ -359,6 +359,11 @@ control — las redes van bien:
 > 0 Ω (EG25-G: "conectar CTS a GND si no se usa control de flujo").
 
 ERC: **0 errores**.
+
+> **J14 = zócalo, no módulo.** El componente de placa es el **socket Mini PCIe
+> JAE `MM60-52B1-E1-R650`** (DigiKey Active, ~28 000 en stock, ~1,65 US$, con
+> eyectores/latch integrados). La tarjeta EG25-G / SIM7600G-H se inserta, no va
+> en la BOM. Se quitó H5 (holder aparte) porque el MM60-E1 ya trae la retención.
 
 ## U4/U5/U6: 74LVC8T245PW → grado automoción (2026-09-01)
 

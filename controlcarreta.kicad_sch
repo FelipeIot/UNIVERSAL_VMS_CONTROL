@@ -29914,7 +29914,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "EG25-G / SIM7600G-H (Mini PCIe)"
+			(property "Value" "Mini PCIe Socket 52p"
 				(at 336.55 134.54 0)
 				(effects
 					(font
@@ -29933,7 +29933,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.digikey.com/en/products/detail/quectel/EG25GGB-MINIPCIE/13278349"
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/jae-electronics/MM60-52B1-E1-R650/2071034"
 				(at 336.55 129.54 0)
 				(effects
 					(font
@@ -29953,7 +29953,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "EG25GGB-MINIPCIE"
+			(property "MPN" "MM60-52B1-E1-R650"
 				(at 336.55 129.54 0)
 				(effects
 					(font
@@ -29963,7 +29963,17 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "Quectel"
+			(property "MANUFACTURER" "JAE Electronics"
+				(at 336.55 129.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Modulo" "tarjeta EG25-G / SIM7600G-H (no va en BOM, se inserta)"
 				(at 336.55 129.54 0)
 				(effects
 					(font
@@ -32293,72 +32303,6 @@
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47"
 					(reference "#PWR0562")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 299.72 218.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0000000-0000-4000-8000-000000090659")
-			(property "Reference" "H5"
-				(at 299.72 213.44 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "MiniPCIe standoff"
-				(at 299.72 223.44 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Connector_PCBEdge:JAE_MM60-EZH039-Bx_BUS_PCI_Express_Holder"
-				(at 299.72 218.44 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 299.72 218.44 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 299.72 218.44 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-		(instances
-			(project "controlcarreta"
-				(path "/9232987b-e923-413e-abd9-77ced6cc4c47"
-					(reference "H5")
 					(unit 1)
 				)
 			)
