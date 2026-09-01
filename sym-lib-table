@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name controlcarreta-rescue)(type Legacy)(uri ${KIPRJMOD}/controlcarreta-rescue.lib)(options "")(descr ""))
+  (lib (name controlcarreta)(type KiCad)(uri ${KIPRJMOD}/controlcarreta.kicad_sym)(options "")(descr "Project-local symbols (ESP32-S3 support parts)"))
+)

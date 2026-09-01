@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SI4447ADY-T1-GE3
+D P-Channel 40 V (D-S) MOSFET
+K
+F https://www.vishay.com/docs/67189/si4447ad.pdf
+$ENDCMP
+#
+#End Doc Library

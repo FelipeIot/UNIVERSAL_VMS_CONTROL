@@ -1,0 +1,57 @@
+# ------------------------------------------------------------------
+#  KiCad – archivos transitorios / caché / autosave / backups
+# ------------------------------------------------------------------
+*-backups/
+_autosave-*
+~*.*
+*.lck
+*.bak
+*-bak
+fp-info-cache
+*-cache.lib
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# ------------------------------------------------------------------
+#  Salidas generadas / exportadas (se regeneran desde el proyecto)
+# ------------------------------------------------------------------
+/gerber/
+*.zip
+*.net
+*.drl
+*.gbr
+*.gbrjob
+*.pos
+*.rpt
+*.ps
+controlcarreta.xml
+Listacontrolcarreta.csv
+
+# ------------------------------------------------------------------
+#  Proyecto KiCad 5 heredado (sustituido por los .kicad_*)
+# ------------------------------------------------------------------
+controlcarreta.pro
+controlcarreta.sch
+sdcard.bck
+sdcard.dcm
+
+# ------------------------------------------------------------------
+#  Modelos 3D pesados dentro de libraries/  ->  los usados están en 3d_models/
+# ------------------------------------------------------------------
+libraries/**/*.step
+libraries/**/*.stp
+libraries/**/*.STEP
+libraries/**/*.STP
+libraries/**/*.sldprt
+libraries/**/*.SLDPRT
+libraries/**/*.wrl
+libraries/**/*.pdf
+libraries/**/*.htm
+libraries/**/*.png
+libraries/**/*.bck
+
+# ------------------------------------------------------------------
+#  Scratch / temporal
+# ------------------------------------------------------------------
+dk*.json
+*.tmp
