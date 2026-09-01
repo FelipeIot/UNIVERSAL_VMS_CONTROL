@@ -359,3 +359,14 @@ control — las redes van bien:
 > 0 Ω (EG25-G: "conectar CTS a GND si no se usa control de flujo").
 
 ERC: **0 errores**.
+
+## U4/U5/U6: 74LVC8T245PW → grado automoción (2026-09-01)
+
+Los 3 traductores de nivel del bus de LEDs pasan a la versión **AEC-Q100**
+(mismo chip, mismo footprint TSSOP-24, drop-in — sólo cambia el grado):
+
+- Value / MPN: **`74LVC8T245PW-Q100J`** (Nexperia, AEC-Q100, −40…+125 °C)
+- Datasheet: https://www.digikey.com/en/products/detail/nexperia-usa-inc/74LVC8T245PW-Q100J/4020317
+
+Segunda fuente equivalente si hace falta: TI `SN74LVC8T245PWR` (drop-in, ~104 k
+en stock). El `74LVC8T245PW` comercial normal sigue disponible y también sirve.
