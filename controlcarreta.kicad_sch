@@ -25908,7 +25908,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/USBLC6-2SC6/28143029"
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/stmicroelectronics/USBLC6-2SC6/1121688"
 				(at 208.28 246.38 0)
 				(effects
 					(font
@@ -26173,7 +26173,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "MAX3232"
+			(property "Value" "MAX3232E"
 				(at 270.51 251.38 0)
 				(effects
 					(font
@@ -26192,7 +26192,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/MAX3232IDR/484759"
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/MAX3232EIDR/1089416"
 				(at 270.51 246.38 0)
 				(effects
 					(font
@@ -26212,7 +26212,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "MAX3232IDR"
+			(property "MPN" "MAX3232EIDR"
 				(at 270.51 246.38 0)
 				(effects
 					(font
@@ -31652,7 +31652,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.digikey.com/en/products/detail/cui-devices/NSIM-2-C/16585269"
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/NSIM-2-C/21796984"
 				(at 374.65 176.53 0)
 				(effects
 					(font
@@ -31682,7 +31682,7 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "CUI Devices"
+			(property "MANUFACTURER" "Same Sky (CUI Devices)"
 				(at 374.65 176.53 0)
 				(effects
 					(font

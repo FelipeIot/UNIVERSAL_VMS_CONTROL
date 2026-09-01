@@ -171,7 +171,7 @@ comprar**, sobre todo tensión/dieléctrico:
 | U3 (sdcard) | Hirose DM3AT-SF-PEJM5 | socket microSD push-pull |
 | U7 (sim800l) | link a simcom.com (DigiKey no lo lista) | |
 | U8 | onsemi NCP1117ST33T3G | |
-| U9 | USBLC6-2SC6 (Slkormicro en DigiKey; ST está sin stock) | |
+| U9 | **STMicroelectronics USBLC6-2SC6** (Active, ~294k stock entre distribuidores) | |
 | J1,J2 | On Shore OSTTC020162 | bornera 5mm 2 pos (footprint Altech AK300) |
 | J3 | Würth 61300411121 | tira de pines 1x4 2.54mm |
 | J13 | GCT USB4085-GF-A | USB-C (coincide con el footprint) |
@@ -244,7 +244,7 @@ equipo externo. La programación y la consola del ESP32-S3 van por el **USB-C
 
 | Ref | Qué es | Footprint |
 |---|---|---|
-| **U11** | MAX3232 (transceptor RS-232 3.3V, símbolo propio `controlcarreta:MAX3232`) | `Package_SO:SOIC-16_3.9x9.9mm_P1.27mm` |
+| **U11** | MAX3232**E** (transceptor RS-232 3.3V, `MAX3232EIDR`, símbolo propio `controlcarreta:MAX3232`) | `Package_SO:SOIC-16_3.9x9.9mm_P1.27mm` |
 | **J17** | Conector **DE9 macho** (DB9), cableado como **DTE** | `Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm` |
 | C28,C29 | 100nF | Bomba de carga del MAX3232 (C1, C2) |
 | C30,C31 | 100nF | Depósito V+ / V− |
@@ -310,9 +310,9 @@ Se completó el campo *Datasheet* de los 18 componentes que faltaban. Ahora
 
 | Ref | Parte elegida | Nota |
 |---|---|---|
-| J14 | Quectel **MM60-52B1-E1-R650 (zócalo JAE, ~28k stock)** | versión Mini PCIe del EG25-G |
+| J14 | JAE **MM60-52B1-E1-R650** | zócalo Mini PCIe 52p con latch integrado (Active, ~28k stock). La tarjeta EG25-G/SIM7600G-H se inserta, no va en BOM |
 | J17 | Amphenol **L717SDE09PA4CH4F** | DE9 macho acodado, solder cup |
-| U11 | TI **MAX3232IDR** | SOIC-16 |
+| U11 | TI **MAX3232EIDR** | SOIC-16, ±15 kV ESD. (El `MAX3232IDR` sin “E” está **obsoleto** — sustituido) |
 | R20,R21 (10k) / R24,R26 (1k) | Stackpole RMCF1206FT10K0 / FT1K00 | 1206 |
 | R25 (1.69k) | Stackpole RMCF1206FT1K69 | 1206 1% |
 | C22,C27–C32 (100nF) | Samsung CL21B104KBCNNNC | 0805 X7R 50V |
