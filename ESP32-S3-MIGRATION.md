@@ -370,3 +370,28 @@ Los 3 traductores de nivel del bus de LEDs pasan a la versión **AEC-Q100**
 
 Segunda fuente equivalente si hace falta: TI `SN74LVC8T245PWR` (drop-in, ~104 k
 en stock). El `74LVC8T245PW` comercial normal sigue disponible y también sirve.
+
+## Reorganización del layout del esquemático (2026-09-01)
+
+Tras añadir ~40 componentes nuevos (ESP32-S3, buck del módem, Mini PCIe, USB-C,
+RS-232) el autoposicionado los dejó **superpuestos** y J14 caía fuera de la
+hoja A3. Se reconstruyó todo el bloque nuevo con un *floor plan* limpio:
+
+| Zona | Contenido |
+|---|---|
+| Centro-izq. | U1 ESP32-S3 (sin cambios de pines) |
+| Franja inferior izq. | U8 LDO 3V3 + C10–C13, reset EN (R13/C14/SW1), BOOT (R14/C15/SW2) |
+| Franja inferior centro | J13 USB-C + U9 (USBLC6) + D7 |
+| Franja inferior der. | U11 MAX3232 + C28–C32, J17 DE9 |
+| Columna derecha arriba | U10 buck del módem + L2 + D8 + red de realimentación |
+| Columna derecha centro | J14 Mini PCIe, pull-ups R20/R21/R27, D9/R26 (LED WWAN), J15 nano-SIM, J16 u.FL, H5 |
+
+- **Conectividad idéntica**: el netlist exportado coincide pin a pin con el
+  commit anterior (`63761f3`) — sólo cambian posiciones, no conexiones.
+- ERC: **0 errores** (los 258 *endpoint_off_grid* y los avisos de
+  `lib_symbol`/`footprint_link` son del diseño original / del entorno kicad-cli,
+  se resuelven en la GUI real).
+- Los pines +3V3AUX (2/24/39/41/52) de J14 van a un único riel con un solo
+  símbolo `+3V3_MODEM`; los 14 GND y el MP a un solo símbolo GND cada grupo.
+- Quedan solapes cosméticos menores de refdes sobre etiquetas (típico del
+  reposicionado) — se afinan en Eeschema sin afectar la red.
