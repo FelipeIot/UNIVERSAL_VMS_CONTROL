@@ -7,6 +7,14 @@
       "3d_models/passives/SW_PUSH_6mm.step"
     ]
   },
+  "Capacitor_SMD:CP_Elec_10x10.5": {
+    "footprint": "Capacitor_SMD:CP_Elec_10x10.5",
+    "category": "passives",
+    "kicad_mod": "/usr/share/kicad/footprints/Capacitor_SMD.pretty/CP_Elec_10x10.5.kicad_mod",
+    "models": [
+      "3d_models/passives/CP_Elec_10x10.5.step"
+    ]
+  },
   "Capacitor_SMD:CP_Elec_8x10.5": {
     "footprint": "Capacitor_SMD:CP_Elec_8x10.5",
     "category": "passives",
@@ -55,12 +63,19 @@
       "3d_models/connectors/DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm.step"
     ]
   },
-  "Connector_PCBEdge:mini_PCIe_Molex_679100000": {
-    "footprint": "Connector_PCBEdge:mini_PCIe_Molex_679100000",
-    "category": "modules",
-    "kicad_mod": null,
+  "Connector_PCBEdge:BUS_PCI_Express_Mini_Full": {
+    "footprint": "Connector_PCBEdge:BUS_PCI_Express_Mini_Full",
+    "category": "connectors",
+    "kicad_mod": "/usr/share/kicad/footprints/Connector_PCBEdge.pretty/BUS_PCI_Express_Mini_Full.kicad_mod",
     "models": [],
-    "note": "3D MODEL MISSING - source manually"
+    "note": "modelo en kicad-packages3d (no instalado aqui) -> ${KICAD9_3DMODEL_DIR}/Connector_PCBEdge.3dshapes/BUS_PCI_Express_Mini_Full.step"
+  },
+  "Connector_PCBEdge:JAE_MM60-EZH039-Bx_BUS_PCI_Express_Holder": {
+    "footprint": "Connector_PCBEdge:JAE_MM60-EZH039-Bx_BUS_PCI_Express_Holder",
+    "category": "connectors",
+    "kicad_mod": "/usr/share/kicad/footprints/Connector_PCBEdge.pretty/JAE_MM60-EZH039-Bx_BUS_PCI_Express_Holder.kicad_mod",
+    "models": [],
+    "note": "modelo en kicad-packages3d (no instalado aqui) -> ${KICAD9_3DMODEL_DIR}/Connector_PCBEdge.3dshapes/JAE_MM60-EZH039-Bx_BUS_PCI_Express_Holder.step"
   },
   "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical": {
     "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
@@ -141,13 +156,6 @@
     "models": [
       "3d_models/connectors/MOLEX10POS.stp"
     ]
-  },
-  "MountingHole:MountingHole_2.2mm_M2": {
-    "footprint": "MountingHole:MountingHole_2.2mm_M2",
-    "category": "mechanical",
-    "kicad_mod": "/usr/share/kicad/footprints/MountingHole.pretty/MountingHole_2.2mm_M2.kicad_mod",
-    "models": [],
-    "note": "no 3D model needed"
   },
   "MountingHole:MountingHole_4.3mm_M4": {
     "footprint": "MountingHole:MountingHole_4.3mm_M4",

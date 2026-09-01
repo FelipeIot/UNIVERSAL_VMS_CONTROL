@@ -323,3 +323,39 @@ Se completó el campo *Datasheet* de los 18 componentes que faltaban. Ahora
 > C25/C26 usan símbolo `Device:C` (sin barra de polaridad). Cámbialos a
 > `Device:CP` en KiCad para que se vea la polaridad (el footprint ya es
 > polarizado y pin1 = +).
+
+## J14: zócalo Mini PCIe real (2026-09-01)
+
+El footprint/símbolo del zócalo Mini PCIe que había puesto era inventado
+(`Connector_PCBEdge:mini_PCIe_Molex_679100000` + símbolo propio `MINI_PCIE_52`).
+Sustituido por los **estándar de KiCad**:
+
+- Símbolo: `Connector:Bus_PCI_Express_Mini` (pinout Mini PCIe estándar, 52 pines + MP).
+- Footprint: `Connector_PCBEdge:BUS_PCI_Express_Mini_Full` (zócalo Mini PCIe 52 pines,
+  tamaño completo, con el taladro del standoff).
+- `H5` → footprint `Connector_PCBEdge:JAE_MM60-EZH039-Bx_BUS_PCI_Express_Holder`
+  (la retención/latch JAE MM60).
+- Símbolos propios `MINI_PCIE_52` eliminados de `controlcarreta.kicad_sym`.
+
+El cableado se mantiene por **número de pin** (que es lo que conecta): el
+símbolo estándar usa los nombres del estándar PCIe (REFCLK±, PERn0/p0, etc.),
+pero el módem celular (EG25-G / SIM7600) reutiliza esos pines para UART, SIM y
+control — las redes van bien:
+
+| pin | nombre en el símbolo | uso real (módem) | red |
+|---|---|---|---|
+| 11 | REFCLK− | UART_RX (entra al módem) | `RX_SIM` |
+| 13 | REFCLK+ | UART_TX (sale del módem) | `TX_SIM` |
+| 23 | PERn0 | UART_CTS | `CTS` → **R27 (0 Ω) → GND** |
+| 31 | PETn0 | DTR | GND |
+| 20 | W_DISABLE# | airplane mode | `W_DISABLE` (pull-up R20) |
+| 22 | PERST# | reset | `MDM_PERST` (pull-up R21) |
+| 8/10/12/14 | UIM_PWR/DATA/CLK/RST | SIM | `SIM_VCC/IO/CLK/RST` → J15 |
+| 42 | LED_WWAN# | LED de red | `WWAN_LED` → D9 |
+| 2/24/39/41/52 | +3V3AUX | alimentación | `+3V3_MODEM` |
+
+> **R27 (0 Ω)** nuevo: el pin 23 en el símbolo estándar es tipo *output*, así
+> que atarlo directo a GND daba error de ERC. Va a GND por una resistencia de
+> 0 Ω (EG25-G: "conectar CTS a GND si no se usa control de flujo").
+
+ERC: **0 errores**.

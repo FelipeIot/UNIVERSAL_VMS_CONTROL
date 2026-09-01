@@ -15,28 +15,22 @@ EXTRA_FP = [os.path.join(PROJ, "libraries"),
             "/home/felipe/Documents/libraries",
             "/home/felipe/Documents/Documents/kicad/libraries"]
 
-FOOTPRINTS = [
-    "Button_Switch_THT:SW_PUSH_6mm", "Capacitor_SMD:CP_Elec_8x10.5",
-    "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
-    "Connector_Card:nanoSIM_Hinged_CUI_NSIM-2-C",
-    "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical",
-    "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical",
-    "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm",
-    "Connector_PCBEdge:mini_PCIe_Molex_679100000",
-    "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
-    "Connector_USB:USB_C_Receptacle_GCT_USB4085",
-    "Diode_SMD:D_2114_3652Metric", "Diode_SMD:D_SMA", "Diode_SMD:D_SOD-123",
-    "Diode_SMD:D_SOD-123F", "Inductor_SMD:L_Bourns_SDR1806",
-    "LED_SMD:LED_0805_2012Metric", "LED_THT:LED_D5.0mm", "MOLEX10POS:MOLEX10POS",
-    "MountingHole:MountingHole_2.2mm_M2", "MountingHole:MountingHole_4.3mm_M4",
-    "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm", "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm",
-    "Package_TO_SOT_SMD:SOT-223-3_TabPin2", "Package_TO_SOT_SMD:SOT-23-6",
-    "Package_TO_SOT_SMD:TO-263-5_TabPin3", "RF_Module:ESP32-S3-WROOM-1",
-    "Resistor_SMD:R_1206_3216Metric", "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
-    "SI4447ADY-T1-GE3:SOIC127P600X175-8N",
-    "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm",
-    "fuse:FUSC6125X279N", "sdcard:sdcardgoia",
-]
+# footprints taken live from the schematic Footprint fields
+def _footprints_from_sch():
+    sch = open(os.path.join(PROJ, "controlcarreta.kicad_sch"), encoding="utf-8", errors="ignore").read()
+    fps = set()
+    for blk in re.split(r'\n\t\(symbol\n', sch)[1:]:
+        if '(lib_id' not in blk:
+            continue
+        ref = re.search(r'\(property "Reference" "([^"]*)"', blk)
+        if not ref or ref.group(1).startswith('#'):
+            continue
+        m = re.search(r'\(property "Footprint" "([^"]+)"', blk)
+        if m and ':' in m.group(1):
+            fps.add(m.group(1))
+    return sorted(fps)
+
+FOOTPRINTS = _footprints_from_sch()
 
 # explicit model source for parts whose bundled/relative model is missing or broken
 DOC = "/home/felipe/Documents/Documents"
@@ -51,10 +45,10 @@ EXPLICIT = {
     "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical":
         KI_3D + "/Connector_Coaxial.3dshapes/SMA_Amphenol_132134-11_Vertical.step",
 }
-NO_MODEL_OK = {"MountingHole:MountingHole_2.2mm_M2", "MountingHole:MountingHole_4.3mm_M4"}
+NO_MODEL_OK = {"MountingHole:MountingHole_4.3mm_M4"}
 
 CATEGORY = {
-    "RF_Module": "modules", "Connector_PCBEdge": "modules",
+    "RF_Module": "modules", "Connector_PCBEdge": "connectors",
     "Package_SO": "ics", "Package_TO_SOT_SMD": "ics", "SI4447ADY-T1-GE3": "ics",
     "Connector_USB": "connectors", "Connector_Dsub": "connectors",
     "Connector_Coaxial": "connectors", "Connector_Card": "connectors",
@@ -139,9 +133,21 @@ for fp in FOOTPRINTS:
             files.append(guess)
     files = sorted(set(files))
     if not files:
-        if fp not in NO_MODEL_OK:
+        # stock KiCad footprint whose model just isn't installed on this machine ->
+        # keep the ${KICAD9_3DMODEL_DIR} path; it resolves with a full kicad-packages3d.
+        stock_model = None
+        if modf and KI_FP in modf:
+            mtxt = open(modf, encoding="utf-8", errors="ignore").read()
+            mm = re.search(r'\(model\s+"([^"]+)"', mtxt)
+            if mm:
+                stock_model = mm.group(1)
+        if fp in NO_MODEL_OK:
+            entry["note"] = "no 3D model needed"
+        elif stock_model:
+            entry["note"] = "modelo en kicad-packages3d (no instalado aqui) -> " + stock_model
+        else:
             missing.append(fp)
-        entry["note"] = "no 3D model needed" if fp in NO_MODEL_OK else "3D MODEL MISSING - source manually"
+            entry["note"] = "3D MODEL MISSING - source manually"
         manifest[fp] = entry
         continue
     dstdir = os.path.join(OUT, cat)
