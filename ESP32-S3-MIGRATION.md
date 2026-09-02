@@ -287,21 +287,37 @@ TX/RX en el esquemático.
 
 ## Modelos 3D locales al proyecto — 2026-09-01
 
-Se creó `3d_models/` con **todos los modelos 3D de la placa** (28 archivos STEP,
+Se creó `3DSHAPES/` con **todos los modelos 3D de la placa** (28 archivos STEP,
 12 MB) organizados por categoría: `modules/ ics/ connectors/ passives/ power/`.
-Ver `3d_models/README.md`.
+Ver `3DSHAPES/README.md`.
 
 - Modelos de KiCad (`kicad-packages3d`) + modelos propios de `libraries/` +
   `~/Documents/Documents/libraries/`, todos copiados a la carpeta del proyecto
   → proyecto portátil, sin rutas absolutas.
 - `scripts/collect_3d.py` — regenera la carpeta.
 - `scripts/relink_3d.py` — **tras "Update PCB from Schematic"**, reescribe todas
-  las rutas `(model ...)` del `.kicad_pcb` a `${KIPRJMOD}/3d_models/...`
+  las rutas `(model ...)` del `.kicad_pcb` a `${KIPRJMOD}/3DSHAPES/...`
   (probado: 48 rutas). Idempotente, deja `.bak`.
 - **Falta el modelo del zócalo Mini PCIe (J14)** — hay que crear ese footprint y
-  su 3D a mano (KiCad no lo trae). Detalles en `3d_models/README.md`.
+  su 3D a mano (KiCad no lo trae). Detalles en `3DSHAPES/README.md`.
 - J15 pasó a footprint `Connector_Card:nanoSIM_Hinged_CUI_NSIM-2-C` (el
   `microSIM_JAE` no tiene modelo 3D en KiCad 9).
+
+### Actualización 3D — 2026-09-01 (tarde)
+
+- La carpeta pasó a llamarse **`3DSHAPES/`** (antes `3d_models/`); scripts,
+  README, `.gitignore` y las 48 rutas `(model ...)` del `.kicad_pcb` actualizados.
+- `collect_3d.py`: ahora guarda **un solo modelo por footprint** (STEP antes que
+  WRL) y conserva la copia ya recolectada cuando el original de `libraries/`
+  no está (esos STEP son `.gitignore`, no viajan en el repo).
+- `relink_3d.py`: además de reenlazar, **borra bloques `(model ...) duplicados`**
+  — J1 tenía dos (uno con ruta absoluta rota, ya eliminado).
+- Verificado con `kicad-cli pcb export step`: la placa exporta sin errores; los
+  únicos `Could not add 3D model` son U1 (ESP32-DEVKITC) y U7 (SIM800L), restos
+  del layout anterior a la migración.
+- J14: confirmado que `Connector_PCBEdge.3dshapes` **no existe en el repo oficial
+  `kicad-packages3D`** — el modelo no falta en este PC, no existe. Hay que
+  sacarlo del fabricante del zócalo (JAE MM60-52B1-E1-R650).
 
 ## Links DigiKey — componentes de módem + RS-232 (2026-09-01)
 

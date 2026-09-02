@@ -626,7 +626,7 @@
 			(uuid "98e640e9-5004-4660-a1f0-b6b31cc6e591")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/CP_Elec_8x10.5.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/CP_Elec_8x10.5.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -820,7 +820,7 @@
 			(uuid "1c583fb3-8b41-439d-9e1a-8cca306915d7")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1014,7 +1014,7 @@
 			(uuid "4ea6dd97-1976-4b14-86aa-6d33bab5ba3a")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1208,7 +1208,7 @@
 			(uuid "fff43863-b75d-4d74-89ac-3d3057dc40a5")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1419,7 +1419,7 @@
 			(uuid "3f6488a4-7d16-459e-85c6-216d3f061836")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LED_THT.3dshapes/LED_D5.0mm.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/LED_D5.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1598,7 +1598,7 @@
 			(uuid "643e6177-5c4c-41f1-afcc-1f5303facbc8")
 		)
 		(embedded_fonts no)
-		(model "/home/felipe/Documents/kicad/libraries/fuse/0679L5000-05.step"
+		(model "${KIPRJMOD}/3DSHAPES/power/0679L5000-05.step"
 			(offset
 				(xyz 0.25 -1.5 0)
 			)
@@ -2662,7 +2662,7 @@
 			(uuid "d9cc09ed-d9db-4cdc-9651-252b2a960758")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/TerminalBlock.3dshapes/TerminalBlock_Altech_AK300-2_P5.00mm.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/connectors/DG302-5.0-02P-12-00AH.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2671,17 +2671,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "/home/felipe/Documents/kicad/libraries/Tblock/DG302-5.0mm/STEP/DG302-5.0-xxP (pitch 5.0mm)/DG302-5.0-02P-12-00AH.STEP"
-			(offset
-				(xyz -2.5 4.5 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
 			)
 		)
 	)
@@ -3011,7 +3000,7 @@
 			(uuid "c4ec09db-75c7-418e-bd9d-3dd3031c9f64")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Bourns_SDR1806.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/L_Bourns_SDR1806.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3205,7 +3194,7 @@
 			(uuid "f5749752-ae38-4636-a8cb-241140a55659")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3399,7 +3388,7 @@
 			(uuid "3aa57238-a369-44fb-a68c-b3cf79955f13")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3593,7 +3582,7 @@
 			(uuid "009e175b-d167-4b58-be99-3904a654a230")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3787,7 +3776,7 @@
 			(uuid "39d1fce6-e3ba-4fc1-9d48-bf950b306e59")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3981,7 +3970,7 @@
 			(uuid "bc7bdb5e-3ee5-4c40-9cbd-1dcbbd3e178c")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5004,7 +4993,7 @@
 			(uuid "516f36cc-6601-41e0-b9d0-c17589b2a0ad")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/TO-263-5_TabPin3.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/ics/TO-263-5_TabPin3.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5232,7 +5221,7 @@
 			(uuid "6303f8c0-00c3-4229-baea-84b560f67272")
 		)
 		(embedded_fonts no)
-		(model "/home/felipe/Documents/kicad/libraries/sdcard/micro SD Card Slot.step"
+		(model "${KIPRJMOD}/3DSHAPES/connectors/micro SD Card Slot.step"
 			(offset
 				(xyz -7.15 7.5 0)
 			)
@@ -5632,7 +5621,7 @@
 			(uuid "19dd5386-a5de-49dd-ade3-f71d69ddb05e")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Package_SO.3dshapes/TSSOP-24_4.4x7.8mm_P0.65mm.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/ics/TSSOP-24_4.4x7.8mm_P0.65mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5826,7 +5815,7 @@
 			(uuid "e08dfedb-0212-4ab0-bd53-f5dbda54a777")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6090,7 +6079,7 @@
 			(uuid "02997b4d-df99-4772-974a-821628773077")
 		)
 		(embedded_fonts no)
-		(model "/home/felipe/Documents/kicad/libraries/Si4447ADY/SO8.STEP"
+		(model "${KIPRJMOD}/3DSHAPES/ics/SO8.STEP"
 			(offset
 				(xyz -6.5 -14.3 0)
 			)
@@ -6515,7 +6504,7 @@
 			(uuid "16691fa0-f69b-4495-b819-b8d0e064a4e9")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/CP_Elec_8x10.5.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/CP_Elec_8x10.5.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6729,7 +6718,7 @@
 			(uuid "20c5c0a8-5fac-472f-9522-e6c13216469c")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_2114_3652Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/D_2114_3652Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7001,7 +6990,7 @@
 			(uuid "36e310fd-9bac-4b82-917b-4454a34b2625")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123F.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/D_SOD-123F.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7273,7 +7262,7 @@
 			(uuid "21a5fea8-4751-4dfe-b4ea-235a43dbcf88")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123F.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/D_SOD-123F.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7673,7 +7662,7 @@
 			(uuid "9b048071-2424-4049-87cc-12936e9d9112")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Package_SO.3dshapes/TSSOP-24_4.4x7.8mm_P0.65mm.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/ics/TSSOP-24_4.4x7.8mm_P0.65mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7945,7 +7934,7 @@
 			(uuid "3b184500-1ddd-479c-82e7-fd301c9177b2")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/D_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8139,7 +8128,7 @@
 			(uuid "14270150-f1d7-4d3d-9eee-36be9666d301")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8333,7 +8322,7 @@
 			(uuid "81cb3a36-0500-4dcf-ad21-0a6d034eba36")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8733,7 +8722,7 @@
 			(uuid "5fcdc83c-9f63-4ef1-b4d3-196f52e8924b")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Package_SO.3dshapes/TSSOP-24_4.4x7.8mm_P0.65mm.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/ics/TSSOP-24_4.4x7.8mm_P0.65mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8944,7 +8933,7 @@
 			(uuid "4b2d0a99-b20f-4db6-8046-aef7597514fe")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/LED_THT.3dshapes/LED_D5.0mm.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/LED_D5.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10008,7 +9997,7 @@
 			(uuid "cc96a5e7-36d2-4dd0-be75-3f5f7d3abb09")
 		)
 		(embedded_fonts no)
-		(model "/home/felipe/Documents/kicad/libraries/Tblock/DG302-5.0mm/STEP/DG302-5.0-xxP (pitch 5.0mm)/DG302-5.0-02P-12-00AH.STEP"
+		(model "${KIPRJMOD}/3DSHAPES/connectors/DG302-5.0-02P-12-00AH.STEP"
 			(offset
 				(xyz -2.5 4.5 0)
 			)
@@ -10202,7 +10191,7 @@
 			(uuid "e48bb34f-7bea-4c79-aac5-40e751e08924")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10741,7 +10730,7 @@
 			(uuid "9b9b6f70-ff38-4f2f-821d-8125494e50f4")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11005,7 +10994,7 @@
 			(uuid "4ac1b186-e6a3-40a7-af55-184b858abd4d")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/connectors/PinHeader_1x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11199,7 +11188,7 @@
 			(uuid "a457dfd6-3369-46be-9d7a-59dd11dccfce")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11393,7 +11382,7 @@
 			(uuid "8e1c7a90-9fc7-4841-9c81-189c84afdfda")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11587,7 +11576,7 @@
 			(uuid "654e80a2-2c47-4764-83e0-796f85d48954")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11781,7 +11770,7 @@
 			(uuid "baad7620-05d4-43ec-9cdf-f06af1f4a19b")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11975,7 +11964,7 @@
 			(uuid "5a143269-07f1-49db-964f-ed63c733819e")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12169,7 +12158,7 @@
 			(uuid "12d47ab7-995d-497e-83f2-d92a1cea528d")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12731,7 +12720,7 @@
 			(uuid "c3a7dc45-916d-4f5c-adb1-09792ee2c96e")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/passives/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13500,7 +13489,7 @@
 			(uuid "b30bf3ad-be24-4316-94dd-d508141a2b23")
 		)
 		(embedded_fonts no)
-		(model "/home/felipe/Documents/kicad/libraries/MOLEX10POS/MOLEX10POS.stp"
+		(model "${KIPRJMOD}/3DSHAPES/connectors/MOLEX10POS.stp"
 			(offset
 				(xyz 0 0 7)
 			)
@@ -13779,7 +13768,7 @@
 			(uuid "6f79d396-e945-462c-bf33-1b7165ca890e")
 		)
 		(embedded_fonts no)
-		(model "/home/felipe/Documents/kicad/libraries/MOLEX10POS/MOLEX10POS.stp"
+		(model "${KIPRJMOD}/3DSHAPES/connectors/MOLEX10POS.stp"
 			(offset
 				(xyz 0 0 7)
 			)
@@ -14058,7 +14047,7 @@
 			(uuid "710bea8d-0b7d-4e9e-98a4-0e5816603882")
 		)
 		(embedded_fonts no)
-		(model "/home/felipe/Documents/kicad/libraries/MOLEX10POS/MOLEX10POS.stp"
+		(model "${KIPRJMOD}/3DSHAPES/connectors/MOLEX10POS.stp"
 			(offset
 				(xyz 0 0 7)
 			)
@@ -14337,7 +14326,7 @@
 			(uuid "0c6ded97-3c8b-4665-bc56-2e3bfa1bee4d")
 		)
 		(embedded_fonts no)
-		(model "/home/felipe/Documents/kicad/libraries/MOLEX10POS/MOLEX10POS.stp"
+		(model "${KIPRJMOD}/3DSHAPES/connectors/MOLEX10POS.stp"
 			(offset
 				(xyz 0 0 7)
 			)
@@ -14616,7 +14605,7 @@
 			(uuid "1ab37749-5314-4c32-b46b-9f41cabb1646")
 		)
 		(embedded_fonts no)
-		(model "/home/felipe/Documents/kicad/libraries/MOLEX10POS/MOLEX10POS.stp"
+		(model "${KIPRJMOD}/3DSHAPES/connectors/MOLEX10POS.stp"
 			(offset
 				(xyz 0 0 7)
 			)
@@ -14895,7 +14884,7 @@
 			(uuid "5ffab709-b052-4b30-b0ac-f7129ce9abad")
 		)
 		(embedded_fonts no)
-		(model "/home/felipe/Documents/kicad/libraries/MOLEX10POS/MOLEX10POS.stp"
+		(model "${KIPRJMOD}/3DSHAPES/connectors/MOLEX10POS.stp"
 			(offset
 				(xyz 0 0 7)
 			)
@@ -15174,7 +15163,7 @@
 			(uuid "14562937-3edb-4c7e-9392-fd02d06e5d6d")
 		)
 		(embedded_fonts no)
-		(model "/home/felipe/Documents/kicad/libraries/MOLEX10POS/MOLEX10POS.stp"
+		(model "${KIPRJMOD}/3DSHAPES/connectors/MOLEX10POS.stp"
 			(offset
 				(xyz 0 0 7)
 			)
@@ -15453,7 +15442,7 @@
 			(uuid "3452ad3e-53aa-454f-9cb7-669426cdb28d")
 		)
 		(embedded_fonts no)
-		(model "/home/felipe/Documents/kicad/libraries/MOLEX10POS/MOLEX10POS.stp"
+		(model "${KIPRJMOD}/3DSHAPES/connectors/MOLEX10POS.stp"
 			(offset
 				(xyz 0 0 7)
 			)
@@ -15929,7 +15918,7 @@
 			(uuid "a754b1d3-aafd-4265-818f-8ffef6289261")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/SMA_Amphenol_132134-16_Vertical.wrl"
+		(model "${KIPRJMOD}/3DSHAPES/connectors/SMA_Amphenol_132134-11_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)

@@ -4,7 +4,7 @@
     "category": "passives",
     "kicad_mod": "/usr/share/kicad/footprints/Button_Switch_THT.pretty/SW_PUSH_6mm.kicad_mod",
     "models": [
-      "3d_models/passives/SW_PUSH_6mm.step"
+      "3DSHAPES/passives/SW_PUSH_6mm.step"
     ]
   },
   "Capacitor_SMD:CP_Elec_10x10.5": {
@@ -12,7 +12,7 @@
     "category": "passives",
     "kicad_mod": "/usr/share/kicad/footprints/Capacitor_SMD.pretty/CP_Elec_10x10.5.kicad_mod",
     "models": [
-      "3d_models/passives/CP_Elec_10x10.5.step"
+      "3DSHAPES/passives/CP_Elec_10x10.5.step"
     ]
   },
   "Capacitor_SMD:CP_Elec_8x10.5": {
@@ -20,7 +20,7 @@
     "category": "passives",
     "kicad_mod": "/usr/share/kicad/footprints/Capacitor_SMD.pretty/CP_Elec_8x10.5.kicad_mod",
     "models": [
-      "3d_models/passives/CP_Elec_8x10.5.step"
+      "3DSHAPES/passives/CP_Elec_8x10.5.step"
     ]
   },
   "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder": {
@@ -28,7 +28,7 @@
     "category": "passives",
     "kicad_mod": "/usr/share/kicad/footprints/Capacitor_SMD.pretty/C_0805_2012Metric_Pad1.18x1.45mm_HandSolder.kicad_mod",
     "models": [
-      "3d_models/passives/C_0805_2012Metric.step"
+      "3DSHAPES/passives/C_0805_2012Metric.step"
     ]
   },
   "Connector_Card:nanoSIM_Hinged_CUI_NSIM-2-C": {
@@ -36,7 +36,7 @@
     "category": "connectors",
     "kicad_mod": "/usr/share/kicad/footprints/Connector_Card.pretty/nanoSIM_Hinged_CUI_NSIM-2-C.kicad_mod",
     "models": [
-      "3d_models/connectors/nanoSIM_Hinged_CUI_NSIM-2-C.step"
+      "3DSHAPES/connectors/nanoSIM_Hinged_CUI_NSIM-2-C.step"
     ]
   },
   "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical": {
@@ -44,7 +44,7 @@
     "category": "connectors",
     "kicad_mod": "/usr/share/kicad/footprints/Connector_Coaxial.pretty/SMA_Amphenol_132134-16_Vertical.kicad_mod",
     "models": [
-      "3d_models/connectors/SMA_Amphenol_132134-11_Vertical.step"
+      "3DSHAPES/connectors/SMA_Amphenol_132134-11_Vertical.step"
     ]
   },
   "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical": {
@@ -52,7 +52,7 @@
     "category": "connectors",
     "kicad_mod": "/usr/share/kicad/footprints/Connector_Coaxial.pretty/U.FL_Hirose_U.FL-R-SMT-1_Vertical.kicad_mod",
     "models": [
-      "3d_models/connectors/U.FL_Hirose_U.FL-R-SMT-1_Vertical.step"
+      "3DSHAPES/connectors/U.FL_Hirose_U.FL-R-SMT-1_Vertical.step"
     ]
   },
   "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm": {
@@ -60,7 +60,7 @@
     "category": "connectors",
     "kicad_mod": "/usr/share/kicad/footprints/Connector_Dsub.pretty/DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm.kicad_mod",
     "models": [
-      "3d_models/connectors/DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm.step"
+      "3DSHAPES/connectors/DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm.step"
     ]
   },
   "Connector_PCBEdge:BUS_PCI_Express_Mini_Full": {
@@ -68,21 +68,14 @@
     "category": "connectors",
     "kicad_mod": "/usr/share/kicad/footprints/Connector_PCBEdge.pretty/BUS_PCI_Express_Mini_Full.kicad_mod",
     "models": [],
-    "note": "modelo en kicad-packages3d (no instalado aqui) -> ${KICAD9_3DMODEL_DIR}/Connector_PCBEdge.3dshapes/BUS_PCI_Express_Mini_Full.step"
-  },
-  "Connector_PCBEdge:JAE_MM60-EZH039-Bx_BUS_PCI_Express_Holder": {
-    "footprint": "Connector_PCBEdge:JAE_MM60-EZH039-Bx_BUS_PCI_Express_Holder",
-    "category": "connectors",
-    "kicad_mod": "/usr/share/kicad/footprints/Connector_PCBEdge.pretty/JAE_MM60-EZH039-Bx_BUS_PCI_Express_Holder.kicad_mod",
-    "models": [],
-    "note": "modelo en kicad-packages3d (no instalado aqui) -> ${KICAD9_3DMODEL_DIR}/Connector_PCBEdge.3dshapes/JAE_MM60-EZH039-Bx_BUS_PCI_Express_Holder.step"
+    "note": "modelo referenciado por el footprint pero ausente en kicad-packages3d -> ${KICAD9_3DMODEL_DIR}/Connector_PCBEdge.3dshapes/BUS_PCI_Express_Mini_Full.step"
   },
   "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical": {
     "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
     "category": "connectors",
     "kicad_mod": "/usr/share/kicad/footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
     "models": [
-      "3d_models/connectors/PinHeader_1x04_P2.54mm_Vertical.step"
+      "3DSHAPES/connectors/PinHeader_1x04_P2.54mm_Vertical.step"
     ]
   },
   "Connector_USB:USB_C_Receptacle_GCT_USB4085": {
@@ -90,7 +83,7 @@
     "category": "connectors",
     "kicad_mod": "/usr/share/kicad/footprints/Connector_USB.pretty/USB_C_Receptacle_GCT_USB4085.kicad_mod",
     "models": [
-      "3d_models/connectors/USB_C_Receptacle_GCT_USB4085.step"
+      "3DSHAPES/connectors/USB_C_Receptacle_GCT_USB4085.step"
     ]
   },
   "Diode_SMD:D_2114_3652Metric": {
@@ -98,7 +91,7 @@
     "category": "passives",
     "kicad_mod": "/usr/share/kicad/footprints/Diode_SMD.pretty/D_2114_3652Metric.kicad_mod",
     "models": [
-      "3d_models/passives/D_2114_3652Metric.step"
+      "3DSHAPES/passives/D_2114_3652Metric.step"
     ]
   },
   "Diode_SMD:D_SMA": {
@@ -106,7 +99,7 @@
     "category": "passives",
     "kicad_mod": "/usr/share/kicad/footprints/Diode_SMD.pretty/D_SMA.kicad_mod",
     "models": [
-      "3d_models/passives/D_SMA.step"
+      "3DSHAPES/passives/D_SMA.step"
     ]
   },
   "Diode_SMD:D_SOD-123": {
@@ -114,7 +107,7 @@
     "category": "passives",
     "kicad_mod": "/usr/share/kicad/footprints/Diode_SMD.pretty/D_SOD-123.kicad_mod",
     "models": [
-      "3d_models/passives/D_SOD-123.step"
+      "3DSHAPES/passives/D_SOD-123.step"
     ]
   },
   "Diode_SMD:D_SOD-123F": {
@@ -122,7 +115,7 @@
     "category": "passives",
     "kicad_mod": "/usr/share/kicad/footprints/Diode_SMD.pretty/D_SOD-123F.kicad_mod",
     "models": [
-      "3d_models/passives/D_SOD-123F.step"
+      "3DSHAPES/passives/D_SOD-123F.step"
     ]
   },
   "Inductor_SMD:L_Bourns_SDR1806": {
@@ -130,7 +123,7 @@
     "category": "passives",
     "kicad_mod": "/usr/share/kicad/footprints/Inductor_SMD.pretty/L_Bourns_SDR1806.kicad_mod",
     "models": [
-      "3d_models/passives/L_Bourns_SDR1806.step"
+      "3DSHAPES/passives/L_Bourns_SDR1806.step"
     ]
   },
   "LED_SMD:LED_0805_2012Metric": {
@@ -138,7 +131,7 @@
     "category": "passives",
     "kicad_mod": "/usr/share/kicad/footprints/LED_SMD.pretty/LED_0805_2012Metric.kicad_mod",
     "models": [
-      "3d_models/passives/LED_0805_2012Metric.step"
+      "3DSHAPES/passives/LED_0805_2012Metric.step"
     ]
   },
   "LED_THT:LED_D5.0mm": {
@@ -146,15 +139,15 @@
     "category": "passives",
     "kicad_mod": "/usr/share/kicad/footprints/LED_THT.pretty/LED_D5.0mm.kicad_mod",
     "models": [
-      "3d_models/passives/LED_D5.0mm.step"
+      "3DSHAPES/passives/LED_D5.0mm.step"
     ]
   },
   "MOLEX10POS:MOLEX10POS": {
     "footprint": "MOLEX10POS:MOLEX10POS",
     "category": "connectors",
-    "kicad_mod": "/home/felipe/Documents/Documents/kicad/PCB_CONTROL_UNIVERSAL/controlcarreta/libraries/MOLEX10POS/MOLEX10POS.kicad_mod",
+    "kicad_mod": "/home/felipe/Documents/UNIVERSAL_VMS_CONTROL/libraries/MOLEX10POS/MOLEX10POS.kicad_mod",
     "models": [
-      "3d_models/connectors/MOLEX10POS.stp"
+      "3DSHAPES/connectors/MOLEX10POS.stp"
     ]
   },
   "MountingHole:MountingHole_4.3mm_M4": {
@@ -169,7 +162,7 @@
     "category": "ics",
     "kicad_mod": "/usr/share/kicad/footprints/Package_SO.pretty/SOIC-16_3.9x9.9mm_P1.27mm.kicad_mod",
     "models": [
-      "3d_models/ics/SOIC-16_3.9x9.9mm_P1.27mm.step"
+      "3DSHAPES/ics/SOIC-16_3.9x9.9mm_P1.27mm.step"
     ]
   },
   "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm": {
@@ -177,7 +170,7 @@
     "category": "ics",
     "kicad_mod": "/usr/share/kicad/footprints/Package_SO.pretty/TSSOP-24_4.4x7.8mm_P0.65mm.kicad_mod",
     "models": [
-      "3d_models/ics/TSSOP-24_4.4x7.8mm_P0.65mm.step"
+      "3DSHAPES/ics/TSSOP-24_4.4x7.8mm_P0.65mm.step"
     ]
   },
   "Package_TO_SOT_SMD:SOT-223-3_TabPin2": {
@@ -185,7 +178,7 @@
     "category": "ics",
     "kicad_mod": "/usr/share/kicad/footprints/Package_TO_SOT_SMD.pretty/SOT-223-3_TabPin2.kicad_mod",
     "models": [
-      "3d_models/ics/SOT-223.step"
+      "3DSHAPES/ics/SOT-223.step"
     ]
   },
   "Package_TO_SOT_SMD:SOT-23-6": {
@@ -193,7 +186,7 @@
     "category": "ics",
     "kicad_mod": "/usr/share/kicad/footprints/Package_TO_SOT_SMD.pretty/SOT-23-6.kicad_mod",
     "models": [
-      "3d_models/ics/SOT-23-6.step"
+      "3DSHAPES/ics/SOT-23-6.step"
     ]
   },
   "Package_TO_SOT_SMD:TO-263-5_TabPin3": {
@@ -201,7 +194,7 @@
     "category": "ics",
     "kicad_mod": "/usr/share/kicad/footprints/Package_TO_SOT_SMD.pretty/TO-263-5_TabPin3.kicad_mod",
     "models": [
-      "3d_models/ics/TO-263-5_TabPin3.step"
+      "3DSHAPES/ics/TO-263-5_TabPin3.step"
     ]
   },
   "RF_Module:ESP32-S3-WROOM-1": {
@@ -209,7 +202,7 @@
     "category": "modules",
     "kicad_mod": "/usr/share/kicad/footprints/RF_Module.pretty/ESP32-S3-WROOM-1.kicad_mod",
     "models": [
-      "3d_models/modules/ESP32-S3-WROOM-1.step"
+      "3DSHAPES/modules/ESP32-S3-WROOM-1.step"
     ]
   },
   "Resistor_SMD:R_1206_3216Metric": {
@@ -217,7 +210,7 @@
     "category": "passives",
     "kicad_mod": "/usr/share/kicad/footprints/Resistor_SMD.pretty/R_1206_3216Metric.kicad_mod",
     "models": [
-      "3d_models/passives/R_1206_3216Metric.step"
+      "3DSHAPES/passives/R_1206_3216Metric.step"
     ]
   },
   "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder": {
@@ -225,7 +218,7 @@
     "category": "passives",
     "kicad_mod": "/usr/share/kicad/footprints/Resistor_SMD.pretty/R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod",
     "models": [
-      "3d_models/passives/R_1206_3216Metric.step"
+      "3DSHAPES/passives/R_1206_3216Metric.step"
     ]
   },
   "SI4447ADY-T1-GE3:SOIC127P600X175-8N": {
@@ -233,7 +226,7 @@
     "category": "ics",
     "kicad_mod": null,
     "models": [
-      "3d_models/ics/SO8.STEP"
+      "3DSHAPES/ics/SO8.STEP"
     ]
   },
   "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm": {
@@ -241,23 +234,23 @@
     "category": "connectors",
     "kicad_mod": null,
     "models": [
-      "3d_models/connectors/DG302-5.0-02P-12-00AH.STEP"
+      "3DSHAPES/connectors/DG302-5.0-02P-12-00AH.STEP"
     ]
   },
   "fuse:FUSC6125X279N": {
     "footprint": "fuse:FUSC6125X279N",
     "category": "power",
-    "kicad_mod": "/home/felipe/Documents/Documents/kicad/PCB_CONTROL_UNIVERSAL/controlcarreta/libraries/fuse/FUSC6125X279N.kicad_mod",
+    "kicad_mod": "/home/felipe/Documents/UNIVERSAL_VMS_CONTROL/libraries/fuse/FUSC6125X279N.kicad_mod",
     "models": [
-      "3d_models/power/0679L5000-05.step"
+      "3DSHAPES/power/0679L5000-05.step"
     ]
   },
   "sdcard:sdcardgoia": {
     "footprint": "sdcard:sdcardgoia",
     "category": "connectors",
-    "kicad_mod": "/home/felipe/Documents/Documents/kicad/PCB_CONTROL_UNIVERSAL/controlcarreta/libraries/sdcard/sdcardgoia.kicad_mod",
+    "kicad_mod": "/home/felipe/Documents/UNIVERSAL_VMS_CONTROL/libraries/sdcard/sdcardgoia.kicad_mod",
     "models": [
-      "3d_models/connectors/micro SD Card Slot.step"
+      "3DSHAPES/connectors/micro SD Card Slot.step"
     ]
   }
 }

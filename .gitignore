@@ -36,7 +36,7 @@ sdcard.bck
 sdcard.dcm
 
 # ------------------------------------------------------------------
-#  Modelos 3D pesados dentro de libraries/  ->  los usados están en 3d_models/
+#  Modelos 3D pesados dentro de libraries/  ->  los usados están en 3DSHAPES/
 # ------------------------------------------------------------------
 libraries/**/*.step
 libraries/**/*.stp

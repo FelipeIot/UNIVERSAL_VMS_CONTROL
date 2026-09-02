@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Collect the 3D models for every footprint on the board into an organised
-   controlcarreta/3d_models/ tree and write a manifest + relink helper."""
+   controlcarreta/3DSHAPES/ tree and write a manifest + relink helper."""
 import os, re, shutil, glob, json, sys
 
 PROJ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(PROJ, "3d_models")
+OUT = os.path.join(PROJ, "3DSHAPES")
 KI_FP = "/usr/share/kicad/footprints"
 KI_3D = "/usr/share/kicad/3dmodels"
 ENV3D = {"KISYS3DMOD": KI_3D, "KICAD9_3DMODEL_DIR": KI_3D, "KICAD8_3DMODEL_DIR": KI_3D,
@@ -131,7 +131,20 @@ for fp in FOOTPRINTS:
     if not files:
         for guess in glob.glob(os.path.join(KI_3D, nick + ".3dshapes", name + ".*")):
             files.append(guess)
-    files = sorted(set(files))
+    # 4) already collected here by a previous run.  The originals under libraries/
+    #    are gitignored (modelos pesados), so for the project-custom parts the copy
+    #    inside 3DSHAPES/ is the only surviving one -- never drop it.
+    if not files and fp in EXPLICIT:
+        kept = os.path.join(OUT, cat, os.path.basename(EXPLICIT[fp]))
+        if os.path.isfile(kept):
+            files.append(kept)
+    # one model per footprint, source priority preserved, STEP preferred over WRL
+    files = list(dict.fromkeys(files))
+    if files:
+        stem0 = os.path.splitext(files[0])[0]
+        same = [f for f in files if os.path.splitext(f)[0] == stem0]
+        step = [f for f in same if os.path.splitext(f)[1].lower() in (".step", ".stp")]
+        files = [step[0] if step else files[0]]
     if not files:
         # stock KiCad footprint whose model just isn't installed on this machine ->
         # keep the ${KICAD9_3DMODEL_DIR} path; it resolves with a full kicad-packages3d.
@@ -144,7 +157,7 @@ for fp in FOOTPRINTS:
         if fp in NO_MODEL_OK:
             entry["note"] = "no 3D model needed"
         elif stock_model:
-            entry["note"] = "modelo en kicad-packages3d (no instalado aqui) -> " + stock_model
+            entry["note"] = "modelo referenciado por el footprint pero ausente en kicad-packages3d -> " + stock_model
         else:
             missing.append(fp)
             entry["note"] = "3D MODEL MISSING - source manually"
@@ -155,7 +168,8 @@ for fp in FOOTPRINTS:
     for f in files:
         base = os.path.basename(f)
         dst = os.path.join(dstdir, base)
-        if not os.path.exists(dst) or os.path.getsize(dst) != os.path.getsize(f):
+        if os.path.abspath(f) != os.path.abspath(dst) and (
+                not os.path.exists(dst) or os.path.getsize(dst) != os.path.getsize(f)):
             shutil.copy2(f, dst)
             copied += 1
         entry["models"].append(os.path.relpath(dst, PROJ))
