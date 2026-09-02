@@ -10827,6 +10827,228 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 109.22) (xy 320.04 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0655000-0000-4000-8000-000000000031")
+	)
+	(label "ANT_GNSS"
+		(at 320.04 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0655000-0000-4000-8000-000000000032")
+	)
+	(wire
+		(pts
+			(xy 307.34 128.27) (xy 299.72 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0655000-0000-4000-8000-000000000033")
+	)
+	(label "ANT_GNSS"
+		(at 299.72 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0655000-0000-4000-8000-000000000034")
+	)
+	(wire
+		(pts
+			(xy 312.42 133.35) (xy 312.42 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0655000-0000-4000-8000-000000000035")
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 312.42 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0655000-0000-4000-8000-000000000040")
+		(property "Reference" "J20"
+			(at 314.96 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SMA GNSS"
+			(at 314.96 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
+			(at 312.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/es/products/detail/amphenol-rf/901-144-8RFX/272189"
+			(at 312.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Conector antena GNSS externa (alternativa a J19 u.FL). Antena GNSS pasiva, con vista al cielo, separada >=3 cm de ANT_MAIN."
+			(at 312.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "901-144-8RFX"
+			(at 312.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Amphenol RF"
+			(at 312.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BOM Comments" "Poblar J19 (u.FL) O J20 (SMA), no ambos. Solo trazado RF 50ohm entre ambos."
+			(at 312.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0655000-0000-4000-8000-000000000041")
+		)
+		(pin "2"
+			(uuid "c0655000-0000-4000-8000-000000000042")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 312.42 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0655000-0000-4000-8000-000000000050")
+		(property "Reference" "#PWR0564"
+			(at 312.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 312.42 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 312.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 312.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0655000-0000-4000-8000-000000000051")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47"
+					(reference "#PWR0564")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
 			(xy 201.295 182.245) (xy 201.295 183.515)
 		)
 		(stroke
@@ -17510,7 +17732,7 @@
 	)
 	(sheet
 		(at 330.2 96.52)
-		(size 55.88 12.7)
+		(size 55.88 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -17575,6 +17797,16 @@
 		(pin "MODEM_DTR" bidirectional
 			(at 330.2 106.68 180)
 			(uuid "c0310000-0000-4000-8000-000000000010")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ANT_GNSS" passive
+			(at 330.2 109.22 180)
+			(uuid "c0655000-0000-4000-8000-000000000030")
 			(effects
 				(font
 					(size 1.27 1.27)
