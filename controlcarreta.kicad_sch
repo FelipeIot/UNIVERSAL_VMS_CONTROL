@@ -9937,9 +9937,25 @@
 		(color 0 0 0 0)
 		(uuid "e28369d4-cc11-410c-84b6-7dcd13656b09")
 	)
-	(no_connect
-		(at 44.45 111.76)
-		(uuid "f0000000-0000-4000-8000-000000090009")
+	(wire
+		(pts
+			(xy 44.45 111.76) (xy 38.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0310000-0000-4000-8000-000000000011")
+	)
+	(label "MODEM_DTR"
+		(at 38.1 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0310000-0000-4000-8000-000000000012")
 	)
 	(no_connect
 		(at 74.93 137.16)
@@ -10788,6 +10804,26 @@
 			(type default)
 		)
 		(uuid "bc330e2c-296b-44e3-803b-561e8dbf0ec5")
+	)
+	(wire
+		(pts
+			(xy 330.2 106.68) (xy 320.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0310000-0000-4000-8000-000000000013")
+	)
+	(label "MODEM_DTR"
+		(at 320.04 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0310000-0000-4000-8000-000000000014")
 	)
 	(wire
 		(pts
@@ -17529,6 +17565,16 @@
 		(pin "ANT_MAIN" passive
 			(at 330.2 104.14 180)
 			(uuid "2a543f0c-e9e2-43c4-84f3-39c48293fc1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MODEM_DTR" bidirectional
+			(at 330.2 106.68 180)
+			(uuid "c0310000-0000-4000-8000-000000000010")
 			(effects
 				(font
 					(size 1.27 1.27)

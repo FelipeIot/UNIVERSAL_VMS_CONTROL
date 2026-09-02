@@ -3098,75 +3098,16 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 175.26 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0000000-0000-4000-8000-000000090525")
-		(property "Reference" "#PWR0551"
-			(at 175.26 96.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
+	(hierarchical_label "MODEM_DTR"
+		(shape bidirectional)
+		(at 175.26 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "GND"
-			(at 175.26 106.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0000000-0000-4000-8000-000000090526")
-		)
-		(instances
-			(project "controlcarreta"
-				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "#PWR0551")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "c0310000-0000-4000-8000-000000000001")
 	)
 	(symbol
 		(lib_id "controlcarreta:+3V3_MODEM")
