@@ -987,40 +987,177 @@
 			(embedded_fonts no)
 		)
 		(symbol "controlcarreta:USBLC6-2SC6"
-			(pin_names (offset 1.016))
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U" (at -6.35 9.525 0)
-				(effects (font (size 1.27 1.27))))
-			(property "Value" "USBLC6-2SC6" (at -6.35 -10.16 0)
-				(effects (font (size 1.27 1.27))))
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) (hide yes)))
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) (hide yes)))
+			(property "Reference" "U"
+				(at -6.35 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USBLC6-2SC6"
+				(at -6.35 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "USBLC6-2SC6_0_1"
-				(rectangle (start -6.35 7.62) (end 6.35 -7.62)
-					(stroke (width 0.254) (type default)) (fill (type background))))
+				(rectangle
+					(start -6.35 7.62)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
 			(symbol "USBLC6-2SC6_1_1"
-				(pin bidirectional line (at -10.16 5.08 0) (length 3.81)
-					(name "I/O1" (effects (font (size 1.27 1.27))))
-					(number "1" (effects (font (size 1.27 1.27)))))
-				(pin power_in line (at 0 -12.7 90) (length 5.08)
-					(name "GND" (effects (font (size 1.27 1.27))))
-					(number "2" (effects (font (size 1.27 1.27)))))
-				(pin bidirectional line (at -10.16 -5.08 0) (length 3.81)
-					(name "I/O2" (effects (font (size 1.27 1.27))))
-					(number "3" (effects (font (size 1.27 1.27)))))
-				(pin bidirectional line (at 10.16 -5.08 180) (length 3.81)
-					(name "I/O2" (effects (font (size 1.27 1.27))))
-					(number "4" (effects (font (size 1.27 1.27)))))
-				(pin passive line (at 10.16 5.08 180) (length 3.81)
-					(name "VBUS" (effects (font (size 1.27 1.27))))
-					(number "5" (effects (font (size 1.27 1.27)))))
-				(pin bidirectional line (at 10.16 0 180) (length 3.81)
-					(name "I/O1" (effects (font (size 1.27 1.27))))
-					(number "6" (effects (font (size 1.27 1.27)))))
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 3.81)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 3.81)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 3.81)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 3.81)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -1251,902 +1388,13 @@
 			(embedded_fonts no)
 		)
 	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 172.72 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0000000-0000-4000-8000-000000090181")
-			(property "Reference" "J13"
-				(at 172.72 143.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "USB-C 2.0"
-				(at 172.72 153.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
-				(at 172.72 148.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.digikey.com/en/products/detail/gct/USB4085-GF-A/9859662"
-				(at 172.72 148.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 172.72 148.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "USB4085-GF-A"
-				(at 172.72 148.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "GCT"
-				(at 172.72 148.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-		(pin "A1"
-			(uuid "f0000000-0000-4000-8000-000000090182")
-		)
-		(pin "S1"
-			(uuid "f0000000-0000-4000-8000-000000090183")
-		)
-		(pin "A4"
-			(uuid "f0000000-0000-4000-8000-000000090184")
-		)
-		(pin "A5"
-			(uuid "f0000000-0000-4000-8000-000000090185")
-		)
-		(pin "B5"
-			(uuid "f0000000-0000-4000-8000-000000090186")
-		)
-		(pin "A7"
-			(uuid "f0000000-0000-4000-8000-000000090187")
-		)
-		(pin "B7"
-			(uuid "f0000000-0000-4000-8000-000000090188")
-		)
-		(pin "A6"
-			(uuid "f0000000-0000-4000-8000-000000090189")
-		)
-		(pin "B6"
-			(uuid "f0000000-0000-4000-8000-000000090190")
-		)
-		(pin "A8"
-			(uuid "f0000000-0000-4000-8000-000000090191")
-		)
-		(pin "B8"
-			(uuid "f0000000-0000-4000-8000-000000090192")
-		)
-		(pin "A9"
-			(uuid "f0000000-0000-4000-8000-000000090193")
-		)
-		(pin "B4"
-			(uuid "f0000000-0000-4000-8000-000000090194")
-		)
-		(pin "B9"
-			(uuid "f0000000-0000-4000-8000-000000090195")
-		)
-		(pin "A12"
-			(uuid "f0000000-0000-4000-8000-000000090196")
-		)
-		(pin "B1"
-			(uuid "f0000000-0000-4000-8000-000000090197")
-		)
-		(pin "B12"
-			(uuid "f0000000-0000-4000-8000-000000090198")
-		)
-		(instances
-			(project "controlcarreta"
-				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
+	(no_connect
+		(at 187.96 161.29)
+		(uuid "f0000000-0000-4000-8000-000000090219")
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 172.72 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0000000-0000-4000-8000-000000090200")
-			(property "Reference" "#PWR0522"
-				(at 172.72 172.8 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 172.72 182.8 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 172.72 177.8 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 172.72 177.8 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 172.72 177.8 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-		(pin "1"
-			(uuid "f0000000-0000-4000-8000-000000090201")
-		)
-		(instances
-			(project "controlcarreta"
-				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "#PWR0522")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 165.1 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0000000-0000-4000-8000-000000090203")
-			(property "Reference" "#PWR0523"
-				(at 165.1 172.8 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 165.1 182.8 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 165.1 177.8 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 165.1 177.8 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 165.1 177.8 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-		(pin "1"
-			(uuid "f0000000-0000-4000-8000-000000090204")
-		)
-		(instances
-			(project "controlcarreta"
-				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "#PWR0523")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 218.44 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0000000-0000-4000-8000-000000090221")
-			(property "Reference" "R15"
-				(at 218.44 163.91 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "5.1k"
-				(at 218.44 173.91 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-				(at 218.44 168.91 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT5K10/1759499"
-				(at 218.44 168.91 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 218.44 168.91 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-		(pin "1"
-			(uuid "f0000000-0000-4000-8000-000000090222")
-		)
-		(pin "2"
-			(uuid "f0000000-0000-4000-8000-000000090223")
-		)
-		(instances
-			(project "controlcarreta"
-				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 218.44 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0000000-0000-4000-8000-000000090227")
-			(property "Reference" "#PWR0524"
-				(at 218.44 174.07 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 218.44 184.07 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 218.44 179.07 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 218.44 179.07 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 218.44 179.07 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-		(pin "1"
-			(uuid "f0000000-0000-4000-8000-000000090228")
-		)
-		(instances
-			(project "controlcarreta"
-				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "#PWR0524")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 227.33 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0000000-0000-4000-8000-000000090229")
-			(property "Reference" "R16"
-				(at 227.33 163.91 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "5.1k"
-				(at 227.33 173.91 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-				(at 227.33 168.91 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT5K10/1759499"
-				(at 227.33 168.91 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 227.33 168.91 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-		(pin "1"
-			(uuid "f0000000-0000-4000-8000-000000090230")
-		)
-		(pin "2"
-			(uuid "f0000000-0000-4000-8000-000000090231")
-		)
-		(instances
-			(project "controlcarreta"
-				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 227.33 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0000000-0000-4000-8000-000000090235")
-			(property "Reference" "#PWR0525"
-				(at 227.33 174.07 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 227.33 184.07 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 227.33 179.07 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 227.33 179.07 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 227.33 179.07 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-		(pin "1"
-			(uuid "f0000000-0000-4000-8000-000000090236")
-		)
-		(instances
-			(project "controlcarreta"
-				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "#PWR0525")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 208.28 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0000000-0000-4000-8000-000000090237")
-			(property "Reference" "D7"
-				(at 208.28 116.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SS14"
-				(at 208.28 126.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 208.28 121.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/SS14/965474"
-				(at 208.28 121.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 208.28 121.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "SS14"
-				(at 208.28 121.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "onsemi"
-				(at 208.28 121.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-		(pin "1"
-			(uuid "f0000000-0000-4000-8000-000000090238")
-		)
-		(pin "2"
-			(uuid "f0000000-0000-4000-8000-000000090239")
-		)
-		(instances
-			(project "controlcarreta"
-				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 198.12 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0000000-0000-4000-8000-000000090241")
-			(property "Reference" "#PWR0526"
-				(at 198.12 116.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 198.12 126.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 198.12 121.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 198.12 121.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 198.12 121.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-		(pin "1"
-			(uuid "f0000000-0000-4000-8000-000000090242")
-		)
-		(instances
-			(project "controlcarreta"
-				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "#PWR0526")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "controlcarreta:USBLC6-2SC6")
-		(at 231.14 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0000000-0000-4000-8000-000000090245")
-			(property "Reference" "U9"
-				(at 231.14 139.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "USBLC6-2SC6"
-				(at 231.14 149.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 231.14 144.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.digikey.com/en/products/detail/stmicroelectronics/USBLC6-2SC6/1121688"
-				(at 231.14 144.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 231.14 144.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "USBLC6-2SC6"
-				(at 231.14 144.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "STMicroelectronics"
-				(at 231.14 144.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-		(pin "1"
-			(uuid "f0000000-0000-4000-8000-000000090246")
-		)
-		(pin "3"
-			(uuid "f0000000-0000-4000-8000-000000090247")
-		)
-		(pin "6"
-			(uuid "f0000000-0000-4000-8000-000000090248")
-		)
-		(pin "4"
-			(uuid "f0000000-0000-4000-8000-000000090249")
-		)
-		(pin "5"
-			(uuid "f0000000-0000-4000-8000-000000090250")
-		)
-		(pin "2"
-			(uuid "f0000000-0000-4000-8000-000000090251")
-		)
-		(instances
-			(project "controlcarreta"
-				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 231.14 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0000000-0000-4000-8000-000000090263")
-			(property "Reference" "#PWR0527"
-				(at 231.14 162.64 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 231.14 172.64 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 231.14 167.64 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 231.14 167.64 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 231.14 167.64 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-		(pin "1"
-			(uuid "f0000000-0000-4000-8000-000000090264")
-		)
-		(instances
-			(project "controlcarreta"
-				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "#PWR0527")
-					(unit 1)
-				)
-			)
-		)
+	(no_connect
+		(at 187.96 163.83)
+		(uuid "f0000000-0000-4000-8000-000000090220")
 	)
 	(wire
 		(pts
@@ -2240,7 +1488,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 165.1) (xy 218.44 158.75)
+			(xy 203.2 179.07) (xy 203.2 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2250,7 +1498,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 172.72) (xy 218.44 179.07)
+			(xy 203.2 186.69) (xy 203.2 193.04)
 		)
 		(stroke
 			(width 0)
@@ -2260,7 +1508,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 165.1) (xy 227.33 158.75)
+			(xy 212.09 179.07) (xy 212.09 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2270,7 +1518,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 172.72) (xy 227.33 179.07)
+			(xy 212.09 186.69) (xy 212.09 193.04)
 		)
 		(stroke
 			(width 0)
@@ -2358,14 +1606,6 @@
 		)
 		(uuid "f0000000-0000-4000-8000-000000090262")
 	)
-	(no_connect
-		(at 187.96 161.29)
-		(uuid "f0000000-0000-4000-8000-000000090219")
-	)
-	(no_connect
-		(at 187.96 163.83)
-		(uuid "f0000000-0000-4000-8000-000000090220")
-	)
 	(label "VBUS"
 		(at 194.31 133.35 0)
 		(effects
@@ -2437,7 +1677,7 @@
 		(uuid "f0000000-0000-4000-8000-000000090218")
 	)
 	(label "USB_CC1"
-		(at 218.44 158.75 0)
+		(at 203.2 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2447,7 +1687,7 @@
 		(uuid "f0000000-0000-4000-8000-000000090225")
 	)
 	(label "USB_CC2"
-		(at 227.33 158.75 0)
+		(at 212.09 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2467,7 +1707,7 @@
 		(uuid "f0000000-0000-4000-8000-000000090244")
 	)
 	(label "USB_DP"
-		(at 210.82 139.7 0)
+		(at 210.82 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2477,7 +1717,7 @@
 		(uuid "f0000000-0000-4000-8000-000000090253")
 	)
 	(label "USB_DM"
-		(at 210.82 149.86 0)
+		(at 210.82 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2517,6 +1757,903 @@
 			(justify right)
 		)
 		(uuid "f0000000-0000-4000-8000-000000090259")
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 172.72 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0000000-0000-4000-8000-000000090181")
+		(property "Reference" "J13"
+			(at 172.72 143.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "USB-C 2.0"
+			(at 172.72 153.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+			(at 172.72 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/gct/USB4085-GF-A/9859662"
+			(at 172.72 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USB4085-GF-A"
+			(at 172.72 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "GCT"
+			(at 172.72 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "f0000000-0000-4000-8000-000000090182")
+		)
+		(pin "S1"
+			(uuid "f0000000-0000-4000-8000-000000090183")
+		)
+		(pin "A4"
+			(uuid "f0000000-0000-4000-8000-000000090184")
+		)
+		(pin "A5"
+			(uuid "f0000000-0000-4000-8000-000000090185")
+		)
+		(pin "B5"
+			(uuid "f0000000-0000-4000-8000-000000090186")
+		)
+		(pin "A7"
+			(uuid "f0000000-0000-4000-8000-000000090187")
+		)
+		(pin "B7"
+			(uuid "f0000000-0000-4000-8000-000000090188")
+		)
+		(pin "A6"
+			(uuid "f0000000-0000-4000-8000-000000090189")
+		)
+		(pin "B6"
+			(uuid "f0000000-0000-4000-8000-000000090190")
+		)
+		(pin "A8"
+			(uuid "f0000000-0000-4000-8000-000000090191")
+		)
+		(pin "B8"
+			(uuid "f0000000-0000-4000-8000-000000090192")
+		)
+		(pin "A9"
+			(uuid "f0000000-0000-4000-8000-000000090193")
+		)
+		(pin "B4"
+			(uuid "f0000000-0000-4000-8000-000000090194")
+		)
+		(pin "B9"
+			(uuid "f0000000-0000-4000-8000-000000090195")
+		)
+		(pin "A12"
+			(uuid "f0000000-0000-4000-8000-000000090196")
+		)
+		(pin "B1"
+			(uuid "f0000000-0000-4000-8000-000000090197")
+		)
+		(pin "B12"
+			(uuid "f0000000-0000-4000-8000-000000090198")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0000000-0000-4000-8000-000000090200")
+		(property "Reference" "#PWR0522"
+			(at 172.72 172.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 182.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0000000-0000-4000-8000-000000090201")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
+					(reference "#PWR0522")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0000000-0000-4000-8000-000000090203")
+		(property "Reference" "#PWR0523"
+			(at 165.1 172.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 182.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0000000-0000-4000-8000-000000090204")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
+					(reference "#PWR0523")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0000000-0000-4000-8000-000000090221")
+		(property "Reference" "R15"
+			(at 203.2 177.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 203.2 187.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 203.2 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT5K10/1759499"
+			(at 203.2 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0000000-0000-4000-8000-000000090222")
+		)
+		(pin "2"
+			(uuid "f0000000-0000-4000-8000-000000090223")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0000000-0000-4000-8000-000000090227")
+		(property "Reference" "#PWR0524"
+			(at 203.2 188.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 198.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0000000-0000-4000-8000-000000090228")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
+					(reference "#PWR0524")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 212.09 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0000000-0000-4000-8000-000000090229")
+		(property "Reference" "R16"
+			(at 212.09 177.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 212.09 187.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 212.09 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT5K10/1759499"
+			(at 212.09 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0000000-0000-4000-8000-000000090230")
+		)
+		(pin "2"
+			(uuid "f0000000-0000-4000-8000-000000090231")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0000000-0000-4000-8000-000000090235")
+		(property "Reference" "#PWR0525"
+			(at 212.09 188.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 198.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0000000-0000-4000-8000-000000090236")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
+					(reference "#PWR0525")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 208.28 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0000000-0000-4000-8000-000000090237")
+		(property "Reference" "D7"
+			(at 208.28 116.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SS14"
+			(at 208.28 126.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/SS14/965474"
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SS14"
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "onsemi"
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0000000-0000-4000-8000-000000090238")
+		)
+		(pin "2"
+			(uuid "f0000000-0000-4000-8000-000000090239")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 198.12 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0000000-0000-4000-8000-000000090241")
+		(property "Reference" "#PWR0526"
+			(at 198.12 116.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 198.12 126.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0000000-0000-4000-8000-000000090242")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
+					(reference "#PWR0526")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "controlcarreta:USBLC6-2SC6")
+		(at 231.14 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0000000-0000-4000-8000-000000090245")
+		(property "Reference" "U9"
+			(at 231.14 139.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 231.14 149.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 231.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/stmicroelectronics/USBLC6-2SC6/1121688"
+			(at 231.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USBLC6-2SC6"
+			(at 231.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "STMicroelectronics"
+			(at 231.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0000000-0000-4000-8000-000000090246")
+		)
+		(pin "3"
+			(uuid "f0000000-0000-4000-8000-000000090247")
+		)
+		(pin "6"
+			(uuid "f0000000-0000-4000-8000-000000090248")
+		)
+		(pin "4"
+			(uuid "f0000000-0000-4000-8000-000000090249")
+		)
+		(pin "5"
+			(uuid "f0000000-0000-4000-8000-000000090250")
+		)
+		(pin "2"
+			(uuid "f0000000-0000-4000-8000-000000090251")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0000000-0000-4000-8000-000000090263")
+		(property "Reference" "#PWR0527"
+			(at 231.14 162.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 172.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0000000-0000-4000-8000-000000090264")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
+					(reference "#PWR0527")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet_instances
 		(path "/"
