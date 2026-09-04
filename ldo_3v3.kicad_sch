@@ -814,6 +814,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "NCP1117ST33T3GOSTR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f0000000-0000-4000-8000-000000090085")
 		)
@@ -1099,6 +1108,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM21BR70J106KA73L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "490-GRM21BR70J106KA73LTR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0000000-0000-4000-8000-000000090098")
 		)
@@ -1308,6 +1344,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LMK212BBJ226MG-T"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "587-5464-2-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -1523,6 +1586,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM21BR70J106KA73L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "490-GRM21BR70J106KA73LTR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0000000-0000-4000-8000-000000090116")
 		)
@@ -1732,6 +1822,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B104KBCNNNC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1276-1003-2-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

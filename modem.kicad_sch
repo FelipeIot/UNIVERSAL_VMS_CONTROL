@@ -2242,6 +2242,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 179.07) (xy 198.12 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0655000-0000-4000-8000-000000000001")
+	)
+	(wire
+		(pts
+			(xy 210.82 184.15) (xy 210.82 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0655000-0000-4000-8000-000000000002")
+	)
+	(wire
+		(pts
 			(xy 184.15 101.6) (xy 175.26 101.6)
 		)
 		(stroke
@@ -2810,6 +2830,28 @@
 		)
 		(uuid "f0000000-0000-4000-8000-000000090643")
 	)
+	(hierarchical_label "MODEM_DTR"
+		(shape bidirectional)
+		(at 175.26 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0310000-0000-4000-8000-000000000001")
+	)
+	(hierarchical_label "ANT_GNSS"
+		(shape passive)
+		(at 198.12 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0655000-0000-4000-8000-000000000003")
+	)
 	(hierarchical_label "TX_SIM"
 		(shape bidirectional)
 		(at 175.26 111.76 180)
@@ -2842,6 +2884,187 @@
 			(justify right)
 		)
 		(uuid "f0000000-0000-4000-8000-000000090651")
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 210.82 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0655000-0000-4000-8000-000000000010")
+		(property "Reference" "J19"
+			(at 210.82 174.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "u.FL"
+			(at 210.82 184.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+			(at 210.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/U-FL-R-SMT-1-10/2704589"
+			(at 210.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antena GNSS/GPS: pigtail u.FL-u.FL a la toma GNSS de la tarjeta Mini-PCIe (EG25-G / SIM7600). Antena pasiva recomendada (Quectel)."
+			(at 210.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "U.FL-R-SMT-1(10)"
+			(at 210.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Hirose"
+			(at 210.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BOM Comments" "Incluye pigtail u.FL-u.FL 100mm a la tarjeta modem; antena GNSS pasiva externa"
+			(at 210.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "H11891TR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0655000-0000-4000-8000-000000000011")
+		)
+		(pin "2"
+			(uuid "c0655000-0000-4000-8000-000000000012")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0655000-0000-4000-8000-000000000020")
+		(property "Reference" "#PWR0563"
+			(at 210.82 185.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 195.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0655000-0000-4000-8000-000000000021")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
+					(reference "#PWR0563")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Bus_PCI_Express_Mini")
@@ -2927,6 +3150,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "670-2275-2-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3097,17 +3329,6 @@
 				)
 			)
 		)
-	)
-	(hierarchical_label "MODEM_DTR"
-		(shape bidirectional)
-		(at 175.26 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0310000-0000-4000-8000-000000000001")
 	)
 	(symbol
 		(lib_id "controlcarreta:+3V3_MODEM")
@@ -3376,6 +3597,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF1206FT10K0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "RMCF1206FT10K0TR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0000000-0000-4000-8000-000000090582")
 		)
@@ -3515,6 +3763,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF1206FT10K0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "RMCF1206FT10K0TR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3660,6 +3935,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Bourns Inc."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR1206AJ/-000EAS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CR1206AJ/-000EASTR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0000000-0000-4000-8000-000000090598")
 		)
@@ -3802,6 +4104,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C171KRKT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "160-1427-2-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0000000-0000-4000-8000-000000090606")
 		)
@@ -3871,6 +4200,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1206FR-071KL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "311-1.00KFRTR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4036,6 +4392,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "2223-NSIM-2-CTR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0000000-0000-4000-8000-000000090621")
 		)
@@ -4187,6 +4552,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B104KBCNNNC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1276-1003-2-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4352,6 +4744,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "H11891TR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0000000-0000-4000-8000-000000090648")
 		)
@@ -4432,209 +4833,6 @@
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
 					(reference "#PWR0561")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 205.74 179.07) (xy 198.12 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0655000-0000-4000-8000-000000000001")
-	)
-	(wire
-		(pts
-			(xy 210.82 184.15) (xy 210.82 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0655000-0000-4000-8000-000000000002")
-	)
-	(hierarchical_label "ANT_GNSS"
-		(shape passive)
-		(at 198.12 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0655000-0000-4000-8000-000000000003")
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 210.82 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0655000-0000-4000-8000-000000000010")
-		(property "Reference" "J19"
-			(at 210.82 174.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "u.FL"
-			(at 210.82 184.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 210.82 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/U-FL-R-SMT-1-10/2704589"
-			(at 210.82 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Antena GNSS/GPS: pigtail u.FL-u.FL a la toma GNSS de la tarjeta Mini-PCIe (EG25-G / SIM7600). Antena pasiva recomendada (Quectel)."
-			(at 210.82 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "U.FL-R-SMT-1(10)"
-			(at 210.82 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Hirose"
-			(at 210.82 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "BOM Comments" "Incluye pigtail u.FL-u.FL 100mm a la tarjeta modem; antena GNSS pasiva externa"
-			(at 210.82 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0655000-0000-4000-8000-000000000011")
-		)
-		(pin "2"
-			(uuid "c0655000-0000-4000-8000-000000000012")
-		)
-		(instances
-			(project "controlcarreta"
-				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 210.82 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0655000-0000-4000-8000-000000000020")
-		(property "Reference" "#PWR0563"
-			(at 210.82 185.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.82 195.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0655000-0000-4000-8000-000000000021")
-		)
-		(instances
-			(project "controlcarreta"
-				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "#PWR0563")
 					(unit 1)
 				)
 			)

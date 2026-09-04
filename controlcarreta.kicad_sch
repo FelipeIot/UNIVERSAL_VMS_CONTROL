@@ -9937,26 +9937,6 @@
 		(color 0 0 0 0)
 		(uuid "e28369d4-cc11-410c-84b6-7dcd13656b09")
 	)
-	(wire
-		(pts
-			(xy 44.45 111.76) (xy 38.1 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0310000-0000-4000-8000-000000000011")
-	)
-	(label "MODEM_DTR"
-		(at 38.1 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c0310000-0000-4000-8000-000000000012")
-	)
 	(no_connect
 		(at 74.93 137.16)
 		(uuid "f0000000-0000-4000-8000-000000090066")
@@ -10807,6 +10787,26 @@
 	)
 	(wire
 		(pts
+			(xy 201.295 182.245) (xy 201.295 183.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcd834f2-c1aa-4890-a30c-c14515e747be")
+	)
+	(wire
+		(pts
+			(xy 44.45 111.76) (xy 38.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0310000-0000-4000-8000-000000000011")
+	)
+	(wire
+		(pts
 			(xy 330.2 106.68) (xy 320.04 106.68)
 		)
 		(stroke
@@ -10814,16 +10814,6 @@
 			(type default)
 		)
 		(uuid "c0310000-0000-4000-8000-000000000013")
-	)
-	(label "MODEM_DTR"
-		(at 320.04 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c0310000-0000-4000-8000-000000000014")
 	)
 	(wire
 		(pts
@@ -10835,16 +10825,6 @@
 		)
 		(uuid "c0655000-0000-4000-8000-000000000031")
 	)
-	(label "ANT_GNSS"
-		(at 320.04 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c0655000-0000-4000-8000-000000000032")
-	)
 	(wire
 		(pts
 			(xy 307.34 128.27) (xy 299.72 128.27)
@@ -10855,16 +10835,6 @@
 		)
 		(uuid "c0655000-0000-4000-8000-000000000033")
 	)
-	(label "ANT_GNSS"
-		(at 299.72 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c0655000-0000-4000-8000-000000000034")
-	)
 	(wire
 		(pts
 			(xy 312.42 133.35) (xy 312.42 139.7)
@@ -10874,188 +10844,6 @@
 			(type default)
 		)
 		(uuid "c0655000-0000-4000-8000-000000000035")
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 312.42 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0655000-0000-4000-8000-000000000040")
-		(property "Reference" "J20"
-			(at 314.96 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SMA GNSS"
-			(at 314.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
-			(at 312.42 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/es/products/detail/amphenol-rf/901-144-8RFX/272189"
-			(at 312.42 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Conector antena GNSS externa (alternativa a J19 u.FL). Antena GNSS pasiva, con vista al cielo, separada >=3 cm de ANT_MAIN."
-			(at 312.42 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "901-144-8RFX"
-			(at 312.42 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Amphenol RF"
-			(at 312.42 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "BOM Comments" "Poblar J19 (u.FL) O J20 (SMA), no ambos. Solo trazado RF 50ohm entre ambos."
-			(at 312.42 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0655000-0000-4000-8000-000000000041")
-		)
-		(pin "2"
-			(uuid "c0655000-0000-4000-8000-000000000042")
-		)
-		(instances
-			(project "controlcarreta"
-				(path "/9232987b-e923-413e-abd9-77ced6cc4c47"
-					(reference "J20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 312.42 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0655000-0000-4000-8000-000000000050")
-		(property "Reference" "#PWR0564"
-			(at 312.42 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 312.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 312.42 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 312.42 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0655000-0000-4000-8000-000000000051")
-		)
-		(instances
-			(project "controlcarreta"
-				(path "/9232987b-e923-413e-abd9-77ced6cc4c47"
-					(reference "#PWR0564")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 201.295 182.245) (xy 201.295 183.515)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcd834f2-c1aa-4890-a30c-c14515e747be")
 	)
 	(wire
 		(pts
@@ -12127,6 +11915,46 @@
 		)
 		(uuid "b9270263-f486-4ef1-aa5b-01b1b657d5fc")
 	)
+	(label "MODEM_DTR"
+		(at 38.1 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0310000-0000-4000-8000-000000000012")
+	)
+	(label "MODEM_DTR"
+		(at 320.04 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0310000-0000-4000-8000-000000000014")
+	)
+	(label "ANT_GNSS"
+		(at 320.04 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0655000-0000-4000-8000-000000000032")
+	)
+	(label "ANT_GNSS"
+		(at 299.72 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0655000-0000-4000-8000-000000000034")
+	)
 	(label "D7"
 		(at 142.24 66.04 180)
 		(effects
@@ -12720,6 +12548,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "On Shore Technology Inc."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OSTOQ025450"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "ED2843-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "855f0e12-c5a2-445a-98f7-9fabfee8a6a8")
 		)
@@ -12861,6 +12716,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Siliconix"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SI4447ADY-T1-GE3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "SI4447ADY-T1-GE3TR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce36c1e4-6214-4647-878a-8ce1838794f2")
 		)
@@ -12943,6 +12825,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Same Sky (Formerly CUI Devices)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SSK01-MPH-254-A4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "2223-SSK01-MPH-254-A4-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13085,6 +12994,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "SMC Diode Solutions"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4007FL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1655-1N4007FLTR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0e89c34f-4f77-4811-b03a-fbed0c7462dc")
 		)
@@ -13150,6 +13086,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "SMC Diode Solutions"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4007FL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1655-1N4007FLTR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13540,6 +13503,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1206FR-071KL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "311-1.00KFRTR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c689c12-106a-4e05-8e8a-7f607f8f012d")
 		)
@@ -13671,6 +13661,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Bourns Inc."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR1206-JW-223ELF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "118-CR1206-JW-223ELFTR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13805,6 +13822,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF1206FT10K0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "RMCF1206FT10K0TR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3cf4a0fe-6322-4d4b-bb9a-1f287b3a9b90")
 		)
@@ -13871,6 +13915,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM21BR71C475KE51L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "490-14466-2-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14069,6 +14140,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM21BR71C475KE51L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "490-14466-2-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6636b9d9-c955-489d-8c3a-909d161c3d66")
 		)
@@ -14199,6 +14297,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCF1206TKY1K50"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "738-RNCF1206TKY1K50TR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db5bcccd-658e-4a63-a844-27c4fffd3d35")
 		)
@@ -14265,6 +14390,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF1206FT10K0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "RMCF1206FT10K0TR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14525,6 +14677,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1206FR-07100KL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "311-100KFRTR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14857,6 +15036,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Amphenol RF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "901-144-8RFX"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "ARFX1231-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b77440f6-7a14-4b74-ac66-e27e711c249c")
 		)
@@ -14962,6 +15168,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bel Fuse Inc."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0679L5000-05"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "5923-0679L5000-05TR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15097,6 +15330,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "On Shore Technology Inc."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OSTOQ025450"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "ED2843-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70a4c6c7-dbc3-4887-8648-9a2fa8985dbf")
 		)
@@ -15163,6 +15423,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF1206FT10K0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "RMCF1206FT10K0TR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15359,6 +15646,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1206JR-07330RL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "311-330ERTR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ae163a7b-5166-479f-a80b-452e0731fd2b")
 		)
@@ -15423,6 +15737,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1206JR-07330RL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "311-330ERTR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15491,6 +15832,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "151051RS11000"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "732-5016-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ca8b338-a94b-485a-adf8-1cc7d81c9fe9")
 		)
@@ -15555,6 +15923,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "151051RS11000"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "732-5016-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15883,6 +16278,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Comchip Technology"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SS8050-G"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "641-1790-2-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3901eaaf-8c97-48f9-a81e-fe1030a4570b")
 		)
@@ -15955,6 +16377,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Comchip Technology"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SS8050-G"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "641-1790-2-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14cc7a0f-4f53-42df-99d9-bcd26cf7f4ae")
 		)
@@ -16017,6 +16466,33 @@
 			)
 		)
 		(property "Description" "FT232 programming header + auto-reset (1=DTR 2=TX 3=RX 4=+3V3 5=RTS 6=GND)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky (Formerly CUI Devices)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SSK01-MPH-254-A6"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "2223-SSK01-MPH-254-A6-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16106,6 +16582,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF1206FT12K0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "RMCF1206FT12K0TR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "38165cb7-9746-4f97-95a9-43f2fea7087b")
 		)
@@ -16167,6 +16670,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF1206FT12K0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "RMCF1206FT12K0TR-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16261,6 +16791,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "5407-ESP32-S3-WROOM-1-N8TR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -16391,6 +16930,187 @@
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 312.42 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0655000-0000-4000-8000-000000000040")
+		(property "Reference" "J20"
+			(at 314.96 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SMA GNSS"
+			(at 314.96 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
+			(at 312.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/es/products/detail/amphenol-rf/901-144-8RFX/272189"
+			(at 312.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Conector antena GNSS externa (alternativa a J19 u.FL). Antena GNSS pasiva, con vista al cielo, separada >=3 cm de ANT_MAIN."
+			(at 312.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "901-144-8RFX"
+			(at 312.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Amphenol RF"
+			(at 312.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BOM Comments" "Poblar J19 (u.FL) O J20 (SMA), no ambos. Solo trazado RF 50ohm entre ambos."
+			(at 312.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "ARFX1231-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0655000-0000-4000-8000-000000000041")
+		)
+		(pin "2"
+			(uuid "c0655000-0000-4000-8000-000000000042")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 312.42 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0655000-0000-4000-8000-000000000050")
+		(property "Reference" "#PWR0564"
+			(at 312.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 312.42 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 312.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 312.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0655000-0000-4000-8000-000000000051")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47"
+					(reference "#PWR0564")
 					(unit 1)
 				)
 			)
@@ -16788,6 +17508,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF1206FT10K0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "RMCF1206FT10K0TR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0000000-0000-4000-8000-000000090134")
 		)
@@ -16927,6 +17674,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM21BR71C105KA01L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "490-1691-2-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -17092,6 +17866,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "SW400-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0000000-0000-4000-8000-000000090150")
 		)
@@ -17234,6 +18017,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF1206FT10K0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "RMCF1206FT10K0TR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0000000-0000-4000-8000-000000090158")
 		)
@@ -17373,6 +18183,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B104KBCNNNC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1276-1003-2-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -17535,6 +18372,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "SW400-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -18274,7 +19120,7 @@
 	)
 	(sheet
 		(at 330.2 30.48)
-		(size 50.8 20.32)
+		(size 25.4 19.685)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18285,11 +19131,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "c54b1649-6e35-4df8-a98a-a4a1fe91165d")
 		(property "Sheetname" "PSU_MODEM"
-			(at 330.2 29.7742 0)
+			(at 330.2 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18298,7 +19144,7 @@
 			)
 		)
 		(property "Sheetfile" "psu_modem.kicad_sch"
-			(at 330.2 51.3842 0)
+			(at 330.2 50.7496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
