@@ -1767,7 +1767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090181")
-		(property "Reference" "J13"
+		(property "Reference" "J19"
 			(at 172.72 143.59 0)
 			(effects
 				(font
@@ -1898,7 +1898,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "J13")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -1913,7 +1913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090200")
-		(property "Reference" "#PWR0522"
+		(property "Reference" "#PWR0156"
 			(at 172.72 172.8 0)
 			(effects
 				(font
@@ -1968,7 +1968,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "#PWR0522")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -1983,7 +1983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090203")
-		(property "Reference" "#PWR0523"
+		(property "Reference" "#PWR0155"
 			(at 165.1 172.8 0)
 			(effects
 				(font
@@ -2038,7 +2038,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "#PWR0523")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -2053,7 +2053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090221")
-		(property "Reference" "R15"
+		(property "Reference" "R28"
 			(at 203.2 177.88 0)
 			(effects
 				(font
@@ -2137,7 +2137,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "R15")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2152,7 +2152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090227")
-		(property "Reference" "#PWR0524"
+		(property "Reference" "#PWR0158"
 			(at 203.2 188.04 0)
 			(effects
 				(font
@@ -2207,7 +2207,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "#PWR0524")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -2222,7 +2222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090229")
-		(property "Reference" "R16"
+		(property "Reference" "R29"
 			(at 212.09 177.88 0)
 			(effects
 				(font
@@ -2306,7 +2306,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "R16")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2321,7 +2321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090235")
-		(property "Reference" "#PWR0525"
+		(property "Reference" "#PWR0159"
 			(at 212.09 188.04 0)
 			(effects
 				(font
@@ -2376,7 +2376,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "#PWR0525")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -2391,7 +2391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090237")
-		(property "Reference" "D7"
+		(property "Reference" "D5"
 			(at 208.28 116.92 0)
 			(effects
 				(font
@@ -2477,7 +2477,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "D7")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -2492,7 +2492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090241")
-		(property "Reference" "#PWR0526"
+		(property "Reference" "#PWR0157"
 			(at 198.12 116.92 0)
 			(effects
 				(font
@@ -2547,7 +2547,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "#PWR0526")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -2562,7 +2562,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090245")
-		(property "Reference" "U9"
+		(property "Reference" "U8"
 			(at 231.14 139.78 0)
 			(effects
 				(font
@@ -2660,7 +2660,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "U9")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -2675,7 +2675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090263")
-		(property "Reference" "#PWR0527"
+		(property "Reference" "#PWR0160"
 			(at 231.14 162.64 0)
 			(effects
 				(font
@@ -2730,7 +2730,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/a9f5f58e-9f19-4b76-92d3-0178cc2d2479"
-					(reference "#PWR0527")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)

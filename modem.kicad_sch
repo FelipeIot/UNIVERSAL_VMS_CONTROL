@@ -2141,6 +2141,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 323.85 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c356ac6e-6832-415c-bb85-e4703ecb90f9")
 	)
 	(junction
 		(at 196.85 76.2)
@@ -2242,6 +2349,36 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 154.94) (xy 311.15 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff03666-6eda-4508-a55b-573c5a2ec818")
+	)
+	(wire
+		(pts
+			(xy 318.77 111.76) (xy 311.15 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3359250e-cee1-4b93-8fee-d199e7a5ad0c")
+	)
+	(wire
+		(pts
+			(xy 316.23 149.86) (xy 323.85 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5662d595-e0ad-4abb-9752-e968c472cfd1")
+	)
+	(wire
+		(pts
 			(xy 205.74 179.07) (xy 198.12 179.07)
 		)
 		(stroke
@@ -2259,6 +2396,26 @@
 			(type default)
 		)
 		(uuid "c0655000-0000-4000-8000-000000000002")
+	)
+	(wire
+		(pts
+			(xy 323.85 116.84) (xy 323.85 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd60d63a-acbd-46b5-9afe-c67e7d761513")
+	)
+	(wire
+		(pts
+			(xy 323.85 149.86) (xy 331.47 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46bfdd7-c023-4f88-8b71-b27d74c654ef")
 	)
 	(wire
 		(pts
@@ -2640,6 +2797,26 @@
 		)
 		(uuid "f0000000-0000-4000-8000-000000090652")
 	)
+	(label "ANT_GNSS"
+		(at 311.15 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ffb90ae-ec0a-4d5e-b42e-dfea38a4b86b")
+	)
+	(label "ANT_MAIN"
+		(at 331.47 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba5c84f8-4752-4eb2-8b2e-51b23db71427")
+	)
 	(label "CTS"
 		(at 175.26 106.68 180)
 		(effects
@@ -2887,6 +3064,166 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
+		(at 311.15 149.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060872b73")
+		(property "Reference" "J17"
+			(at 312.42 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 312.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
+			(at 311.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/es/products/detail/amphenol-rf/901-144-8RFX/272189"
+			(at 311.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 311.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Amphenol RF"
+			(at 280.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "901-144-8RFX"
+			(at 280.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "ARFX1231-ND"
+			(at 280.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b77440f6-7a14-4b74-ac66-e27e711c249c")
+		)
+		(pin "2"
+			(uuid "1cc897da-8def-4689-8d85-a0c174049668")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 323.85 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006093e455")
+		(property "Reference" "#FLG05"
+			(at 323.85 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 323.85 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 323.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9177b469-bb66-4237-b42a-feea3fc79924")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
 		(at 210.82 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2894,7 +3231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0655000-0000-4000-8000-000000000010")
-		(property "Reference" "J19"
+		(property "Reference" "J15"
 			(at 210.82 174.07 0)
 			(effects
 				(font
@@ -2990,7 +3327,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "J19")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -3005,7 +3342,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0655000-0000-4000-8000-000000000020")
-		(property "Reference" "#PWR0563"
+		(property "Reference" "#PWR0149"
 			(at 210.82 185.5 0)
 			(effects
 				(font
@@ -3060,7 +3397,188 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "#PWR0563")
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 323.85 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0655000-0000-4000-8000-000000000040")
+		(property "Reference" "J18"
+			(at 326.39 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SMA GNSS"
+			(at 326.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
+			(at 323.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/es/products/detail/amphenol-rf/901-144-8RFX/272189"
+			(at 323.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Conector antena GNSS externa (alternativa a J19 u.FL). Antena GNSS pasiva, con vista al cielo, separada >=3 cm de ANT_MAIN."
+			(at 323.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "901-144-8RFX"
+			(at 323.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Amphenol RF"
+			(at 323.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BOM Comments" "Poblar J19 (u.FL) O J20 (SMA), no ambos. Solo trazado RF 50ohm entre ambos."
+			(at 323.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "ARFX1231-ND"
+			(at 11.43 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0655000-0000-4000-8000-000000000041")
+		)
+		(pin "2"
+			(uuid "c0655000-0000-4000-8000-000000000042")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 323.85 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0655000-0000-4000-8000-000000000050")
+		(property "Reference" "#PWR0154"
+			(at 323.85 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 323.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 323.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0655000-0000-4000-8000-000000000051")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -3085,7 +3603,7 @@
 			)
 		)
 		(property "Value" "Mini PCIe Socket 52p"
-			(at 201.93 114.22 0)
+			(at 189.992 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,7 +3857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090572")
-		(property "Reference" "#PWR0552"
+		(property "Reference" "#PWR0146"
 			(at 196.85 63.58 0)
 			(effects
 				(font
@@ -3394,7 +3912,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "#PWR0552")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -3409,7 +3927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090575")
-		(property "Reference" "#PWR0553"
+		(property "Reference" "#PWR0147"
 			(at 201.93 142.32 0)
 			(effects
 				(font
@@ -3464,7 +3982,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "#PWR0553")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -3479,7 +3997,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090579")
-		(property "Reference" "#PWR0554"
+		(property "Reference" "#PWR0148"
 			(at 207.01 138.51 0)
 			(effects
 				(font
@@ -3534,7 +4052,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "#PWR0554")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -3549,7 +4067,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090581")
-		(property "Reference" "R20"
+		(property "Reference" "R24"
 			(at 149.86 71.2 0)
 			(effects
 				(font
@@ -3633,7 +4151,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "R20")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3648,7 +4166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090585")
-		(property "Reference" "#PWR0555"
+		(property "Reference" "#PWR0142"
 			(at 149.86 61.04 0)
 			(effects
 				(font
@@ -3703,7 +4221,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "#PWR0555")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -3718,7 +4236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090589")
-		(property "Reference" "R21"
+		(property "Reference" "R25"
 			(at 149.86 104.22 0)
 			(effects
 				(font
@@ -3802,7 +4320,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "R21")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3817,7 +4335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090593")
-		(property "Reference" "#PWR0556"
+		(property "Reference" "#PWR0143"
 			(at 149.86 94.06 0)
 			(effects
 				(font
@@ -3872,7 +4390,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "#PWR0556")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -3887,7 +4405,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090597")
-		(property "Reference" "R27"
+		(property "Reference" "R26"
 			(at 149.86 138.51 0)
 			(effects
 				(font
@@ -3971,7 +4489,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "R27")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3986,7 +4504,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090603")
-		(property "Reference" "#PWR0557"
+		(property "Reference" "#PWR0144"
 			(at 149.86 148.67 0)
 			(effects
 				(font
@@ -4041,7 +4559,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "#PWR0557")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -4056,7 +4574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090605")
-		(property "Reference" "D9"
+		(property "Reference" "D4"
 			(at 255.27 75.01 0)
 			(effects
 				(font
@@ -4140,7 +4658,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "D9")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4155,7 +4673,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090612")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 267.97 75.01 0)
 			(effects
 				(font
@@ -4239,7 +4757,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -4254,7 +4772,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090618")
-		(property "Reference" "#PWR0558"
+		(property "Reference" "#PWR0152"
 			(at 267.97 85.17 0)
 			(effects
 				(font
@@ -4309,7 +4827,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "#PWR0558")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -4324,7 +4842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090620")
-		(property "Reference" "J15"
+		(property "Reference" "J16"
 			(at 240.03 151.21 0)
 			(effects
 				(font
@@ -4422,7 +4940,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "J15")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -4437,7 +4955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090634")
-		(property "Reference" "#PWR0559"
+		(property "Reference" "#PWR0150"
 			(at 218.44 151.21 0)
 			(effects
 				(font
@@ -4492,7 +5010,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "#PWR0559")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -4507,7 +5025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090639")
-		(property "Reference" "C22"
+		(property "Reference" "C36"
 			(at 262.89 165.18 0)
 			(effects
 				(font
@@ -4591,7 +5109,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "C22")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -4606,7 +5124,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090645")
-		(property "Reference" "#PWR0560"
+		(property "Reference" "#PWR0151"
 			(at 262.89 175.34 0)
 			(effects
 				(font
@@ -4661,7 +5179,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "#PWR0560")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -4676,7 +5194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090647")
-		(property "Reference" "J16"
+		(property "Reference" "J13"
 			(at 180.34 174.07 0)
 			(effects
 				(font
@@ -4762,7 +5280,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "J16")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -4777,7 +5295,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090653")
-		(property "Reference" "#PWR0561"
+		(property "Reference" "#PWR0145"
 			(at 180.34 185.5 0)
 			(effects
 				(font
@@ -4832,7 +5350,72 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
-					(reference "#PWR0561")
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 311.15 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0000000-0000-4000-8000-000000090657")
+		(property "Reference" "#PWR0153"
+			(at 311.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 311.15 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 311.15 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0000000-0000-4000-8000-000000090658")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/46e5d0ef-dab9-446e-ac53-867ecc660a13"
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)

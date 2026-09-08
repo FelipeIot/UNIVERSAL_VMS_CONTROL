@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project": "controlcarreta.kicad_pro",
-  "current": "2026-09-04_1206",
+  "current": "2026-09-07_1451",
   "runs": {
     "2026-09-04_1014": {
       "source_hashes": {
@@ -30,6 +30,22 @@
         "schematic": "analyze_schematic.py controlcarreta.kicad_sch"
       },
       "generated": "2026-09-04T12:06:17-05:00",
+      "pinned": false
+    },
+    "2026-09-07_1451": {
+      "source_hashes": {
+        "controlcarreta.kicad_sch": "sha256:e9b62933b37ea20d1549390fb9ba2d9f58e088a05d3b9c1cdc0c28391b66df7d",
+        "controlcarreta.kicad_pcb": "sha256:d676d01146e1ac860ac474e74c638a38efc893698d9a7d3b4d32615effd250c5"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "thermal": "thermal.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py controlcarreta.kicad_sch"
+      },
+      "generated": "2026-09-07T14:53:49-05:00",
       "pinned": false
     }
   }

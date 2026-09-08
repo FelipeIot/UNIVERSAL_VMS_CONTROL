@@ -1,4 +1,9 @@
 (sym_lib_table
   (lib (name controlcarreta-rescue)(type Legacy)(uri ${KIPRJMOD}/controlcarreta-rescue.lib)(options "")(descr ""))
   (lib (name controlcarreta)(type KiCad)(uri ${KIPRJMOD}/controlcarreta.kicad_sym)(options "")(descr "Project-local symbols (ESP32-S3 support parts)"))
+  (lib (name 0679L5000-05)(type Legacy)(uri ${KIPRJMOD}/libraries/fuse/0679L5000-05.lib)(options "")(descr "SamacSys import - fuse F1 (0679L5000/0680L2000)"))
+  (lib (name 74LVC8T245PW)(type Legacy)(uri ${KIPRJMOD}/libraries/74LVC8T245PW/74LVC8T245PW.lib)(options "")(descr "SamacSys import - level shifters U4/U5/U6"))
+  (lib (name MOLEX10POS)(type Legacy)(uri ${KIPRJMOD}/libraries/MOLEX10POS/MOLEX10POS.lib)(options "")(descr "SamacSys import - driver connectors J4-J11"))
+  (lib (name sdcard)(type Legacy)(uri ${KIPRJMOD}/libraries/sdcard/sdcard.lib)(options "")(descr "SamacSys import - microSD socket U3"))
+  (lib (name SI4447ADY-T1-GE3)(type Legacy)(uri ${KIPRJMOD}/libraries/Si4447ADY/SI4447ADY-T1-GE3.lib)(options "")(descr "SamacSys import - reverse-polarity FET Q1"))
 )

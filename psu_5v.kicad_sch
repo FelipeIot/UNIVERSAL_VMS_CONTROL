@@ -1549,7 +1549,7 @@
 		)
 	)
 	(junction
-		(at 20 96.2)
+		(at 143.51 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a518b05-ed58-4d80-9220-cc5ad0ec877b")
@@ -1576,7 +1576,7 @@
 	)
 	(wire
 		(pts
-			(xy 47.94 82.23) (xy 47.94 75.88)
+			(xy 177.8 38.1) (xy 177.8 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1596,7 +1596,7 @@
 	)
 	(wire
 		(pts
-			(xy 117.79 89.85) (xy 117.79 96.2)
+			(xy 247.65 45.72) (xy 247.65 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1606,7 +1606,7 @@
 	)
 	(wire
 		(pts
-			(xy 103.82 82.23) (xy 103.82 75.88)
+			(xy 233.68 38.1) (xy 233.68 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1616,7 +1616,7 @@
 	)
 	(wire
 		(pts
-			(xy 89.85 89.85) (xy 89.85 96.2)
+			(xy 219.71 45.72) (xy 219.71 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1636,7 +1636,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.91 82.23) (xy 61.91 75.88)
+			(xy 191.77 38.1) (xy 191.77 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1646,7 +1646,7 @@
 	)
 	(wire
 		(pts
-			(xy 117.79 82.23) (xy 117.79 75.88)
+			(xy 247.65 38.1) (xy 247.65 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1666,7 +1666,7 @@
 	)
 	(wire
 		(pts
-			(xy 20 96.2) (xy 30 96.2)
+			(xy 143.51 53.34) (xy 153.51 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1696,7 +1696,7 @@
 	)
 	(wire
 		(pts
-			(xy 103.82 89.85) (xy 103.82 96.2)
+			(xy 233.68 45.72) (xy 233.68 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1706,7 +1706,7 @@
 	)
 	(wire
 		(pts
-			(xy 20 82.23) (xy 20 75.88)
+			(xy 143.51 39.37) (xy 143.51 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1726,7 +1726,7 @@
 	)
 	(wire
 		(pts
-			(xy 47.94 89.85) (xy 47.94 96.2)
+			(xy 177.8 45.72) (xy 177.8 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1746,7 +1746,7 @@
 	)
 	(wire
 		(pts
-			(xy 75.88 89.85) (xy 75.88 96.2)
+			(xy 205.74 45.72) (xy 205.74 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1806,7 +1806,7 @@
 	)
 	(wire
 		(pts
-			(xy 131.76 82.23) (xy 131.76 75.88)
+			(xy 261.62 38.1) (xy 261.62 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1816,7 +1816,7 @@
 	)
 	(wire
 		(pts
-			(xy 20 89.85) (xy 20 96.2)
+			(xy 143.51 46.99) (xy 143.51 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1826,7 +1826,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.97 89.85) (xy 33.97 96.2)
+			(xy 163.83 45.72) (xy 163.83 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1846,7 +1846,7 @@
 	)
 	(wire
 		(pts
-			(xy 75.88 82.23) (xy 75.88 75.88)
+			(xy 205.74 38.1) (xy 205.74 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1886,7 +1886,7 @@
 	)
 	(wire
 		(pts
-			(xy 131.76 89.85) (xy 131.76 96.2)
+			(xy 261.62 45.72) (xy 261.62 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1916,7 +1916,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.91 89.85) (xy 61.91 96.2)
+			(xy 191.77 45.72) (xy 191.77 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1976,7 +1976,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.97 82.23) (xy 33.97 75.88)
+			(xy 163.83 38.1) (xy 163.83 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2046,7 +2046,7 @@
 	)
 	(wire
 		(pts
-			(xy 89.85 82.23) (xy 89.85 75.88)
+			(xy 219.71 38.1) (xy 219.71 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2105,7 +2105,7 @@
 		(uuid "ffc66eb9-0ca3-497d-973b-c0297a42b2bc")
 	)
 	(label "PSU5_SW"
-		(at 20 75.88 0)
+		(at 143.51 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2115,7 +2115,7 @@
 		(uuid "00feecb0-55e6-48b9-84fa-8e72823dde8d")
 	)
 	(label "PSU5_RT"
-		(at 75.88 75.88 0)
+		(at 205.74 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2155,7 +2155,7 @@
 		(uuid "3d40683f-df1d-4534-aeed-3863b27bbee4")
 	)
 	(label "PSU5_SS"
-		(at 89.85 75.88 0)
+		(at 219.71 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2165,7 +2165,7 @@
 		(uuid "4e892955-5bb6-4bdc-8c5c-53ef101cad57")
 	)
 	(label "PSU5_FB"
-		(at 33.97 96.2 0)
+		(at 163.83 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2175,7 +2175,7 @@
 		(uuid "5ae2c8c5-957c-4a35-ad68-ae4db9855cc9")
 	)
 	(label "PSU5_PG"
-		(at 131.76 96.2 0)
+		(at 261.62 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2225,7 +2225,7 @@
 		(uuid "a52a962f-cde4-488a-a55d-f61e9c5681af")
 	)
 	(label "PSU5_EN"
-		(at 117.79 75.88 0)
+		(at 247.65 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2255,7 +2255,7 @@
 		(uuid "c2064e23-20f9-4395-8a87-149a43400cc5")
 	)
 	(label "PSU5_FB"
-		(at 61.91 96.2 0)
+		(at 191.77 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2275,7 +2275,7 @@
 		(uuid "e43c0d3e-7742-42f5-8a7d-712fe5213460")
 	)
 	(label "PSU5_EN"
-		(at 103.82 96.2 0)
+		(at 233.68 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2295,7 +2295,7 @@
 		(uuid "fe62b265-c2a4-4d18-9c94-6d89d9d30516")
 	)
 	(label "PSU5_FB"
-		(at 47.94 75.88 0)
+		(at 177.8 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2306,15 +2306,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 75.88 96.2 0)
+		(at 205.74 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "12fc85dd-76d1-4387-ae7c-d7ed632fd679")
-		(property "Reference" "#PWR0616"
-			(at 75.88 91.2 0)
+		(property "Reference" "#PWR056"
+			(at 205.74 47.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2324,7 +2324,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 75.88 101.2 0)
+			(at 205.74 57.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,7 +2333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 75.88 96.2 0)
+			(at 205.74 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2343,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 75.88 96.2 0)
+			(at 205.74 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2353,7 +2353,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 75.88 96.2 0)
+			(at 205.74 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2368,7 +2368,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0616")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2376,15 +2376,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 47.94 86.04 0)
+		(at 177.8 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "153b942c-bf54-4892-8a24-2e8423a109fb")
-		(property "Reference" "R102"
-			(at 47.94 81.04 0)
+		(property "Reference" "R13"
+			(at 177.8 36.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +2393,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 47.94 91.04 0)
+			(at 177.8 46.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +2402,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 47.94 86.04 0)
+			(at 177.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,7 +2412,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 47.94 86.04 0)
+			(at 177.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,7 +2422,7 @@
 			)
 		)
 		(property "Description" "FB inferior (RFBB)"
-			(at 47.94 86.04 0)
+			(at 177.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,7 +2432,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,7 +2441,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-07100KL"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +2450,7 @@
 			)
 		)
 		(property "DigiKey" "311-100KLRTR-ND"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2467,7 +2467,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "R102")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2475,15 +2475,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 131.76 86.04 0)
+		(at 261.62 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "15b65b67-c021-46bb-9f18-b4c550c47e88")
-		(property "Reference" "R106"
-			(at 131.76 81.04 0)
+		(property "Reference" "R17"
+			(at 261.62 36.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2492,7 +2492,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 131.76 91.04 0)
+			(at 261.62 46.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +2501,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 131.76 86.04 0)
+			(at 261.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2511,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 131.76 86.04 0)
+			(at 261.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,7 +2521,7 @@
 			)
 		)
 		(property "Description" "Pull-up PGOOD"
-			(at 131.76 86.04 0)
+			(at 261.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,7 +2531,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,7 +2540,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-07100KL"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2549,7 +2549,7 @@
 			)
 		)
 		(property "DigiKey" "311-100KLRTR-ND"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,7 +2566,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "R106")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2581,7 +2581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f58529d-df39-4885-9550-e596412092c9")
-		(property "Reference" "#PWR0611"
+		(property "Reference" "#PWR044"
 			(at 98.74 61.99 0)
 			(effects
 				(font
@@ -2636,7 +2636,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0611")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2651,7 +2651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f72e982-5b22-4ce7-b39c-3d373cdeac71")
-		(property "Reference" "#PWR0634"
+		(property "Reference" "#PWR050"
 			(at 131.76 95.01 0)
 			(effects
 				(font
@@ -2662,7 +2662,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 131.76 105.01 0)
+			(at 129.54 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,7 +2706,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0634")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2714,15 +2714,15 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 20 86.04 0)
+		(at 143.51 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2284f673-c83b-4a3c-a397-195fb8cbc5d0")
-		(property "Reference" "L4"
-			(at 20 81.04 0)
+		(property "Reference" "L1"
+			(at 143.51 38.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +2731,7 @@
 			)
 		)
 		(property "Value" "10uH"
-			(at 20 91.04 0)
+			(at 143.51 48.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +2740,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1260"
-			(at 20 86.04 0)
+			(at 143.51 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +2750,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20 86.04 0)
+			(at 143.51 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +2760,7 @@
 			)
 		)
 		(property "Description" "Power inductor, Isat 13A"
-			(at 20 86.04 0)
+			(at 143.51 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,7 +2770,7 @@
 			)
 		)
 		(property "MPN" "SRP1265A-100M"
-			(at 20 86.04 0)
+			(at 143.51 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +2780,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Bourns"
-			(at 20 86.04 0)
+			(at 143.51 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +2790,7 @@
 			)
 		)
 		(property "DigiKey" "SRP1265A-100MTR-ND"
-			(at 0 0 0)
+			(at 123.51 -42.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,7 +2807,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "L4")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -2815,15 +2815,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 131.76 75.88 0)
+		(at 261.62 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "24ba988f-de37-453b-a493-761cbd7b9a46")
-		(property "Reference" "#PWR0620"
-			(at 131.76 70.88 0)
+		(property "Reference" "#PWR060"
+			(at 261.62 26.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +2833,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 131.76 80.88 0)
+			(at 258.826 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +2842,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 131.76 75.88 0)
+			(at 261.62 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2852,7 +2852,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 131.76 75.88 0)
+			(at 261.62 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +2862,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 131.76 75.88 0)
+			(at 261.62 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,7 +2877,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0620")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -2892,7 +2892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25306ae1-9002-4983-93fb-83fa69867d56")
-		(property "Reference" "C53"
+		(property "Reference" "C10"
 			(at 47.94 105.17 0)
 			(effects
 				(font
@@ -2976,7 +2976,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "C53")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2991,7 +2991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25f126d5-1f81-4f17-adc7-47a7719cadbd")
-		(property "Reference" "C49"
+		(property "Reference" "C16"
 			(at 131.76 105.17 0)
 			(effects
 				(font
@@ -3075,7 +3075,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "C49")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -3090,7 +3090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "370d9d16-2d8b-4bf2-85db-4bbfabc5867d")
-		(property "Reference" "#PWR0630"
+		(property "Reference" "#PWR045"
 			(at 103.82 95.01 0)
 			(effects
 				(font
@@ -3101,7 +3101,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 103.82 105.01 0)
+			(at 101.6 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3145,7 +3145,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0630")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3153,15 +3153,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 33.97 86.04 0)
+		(at 163.83 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "39c96ac1-5e48-4296-8b15-5e0a38924313")
-		(property "Reference" "R101"
-			(at 33.97 81.04 0)
+		(property "Reference" "R12"
+			(at 163.83 36.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3170,7 +3170,7 @@
 			)
 		)
 		(property "Value" "402k"
-			(at 33.97 91.04 0)
+			(at 163.83 46.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,7 +3179,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 33.97 86.04 0)
+			(at 163.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,7 +3189,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.97 86.04 0)
+			(at 163.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3199,7 +3199,7 @@
 			)
 		)
 		(property "Description" "FB superior (RFBT)"
-			(at 33.97 86.04 0)
+			(at 163.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +3209,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3218,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-07402KL"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +3227,7 @@
 			)
 		)
 		(property "DigiKey" "YAG3151TR-ND"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3244,7 +3244,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "R101")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3252,15 +3252,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 103.82 86.04 0)
+		(at 233.68 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3e0a194a-83d0-4104-85b3-58c9c502cfed")
-		(property "Reference" "R104"
-			(at 103.82 81.04 0)
+		(property "Reference" "R15"
+			(at 233.68 36.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3269,7 +3269,7 @@
 			)
 		)
 		(property "Value" "1.21M"
-			(at 103.82 91.04 0)
+			(at 233.68 46.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,7 +3278,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 103.82 86.04 0)
+			(at 233.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,7 +3288,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 103.82 86.04 0)
+			(at 233.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +3298,7 @@
 			)
 		)
 		(property "Description" "EN/UVLO superior (RENT)"
-			(at 103.82 86.04 0)
+			(at 233.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +3308,7 @@
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,7 +3317,7 @@
 			)
 		)
 		(property "MPN" "RMCF0402FT1M21"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,7 +3326,7 @@
 			)
 		)
 		(property "DigiKey" "RMCF0402FT1M21TR-ND"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +3343,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "R104")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3351,15 +3351,15 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 103.82 75.88 0)
+		(at 233.68 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3ed973ce-5676-4ee6-953a-c6d2b3f30601")
-		(property "Reference" "#PWR0618"
-			(at 103.82 70.88 0)
+		(property "Reference" "#PWR058"
+			(at 233.68 26.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,7 +3369,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 103.82 80.88 0)
+			(at 231.14 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3378,7 +3378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 103.82 75.88 0)
+			(at 233.68 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,7 +3388,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 103.82 75.88 0)
+			(at 233.68 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3398,7 +3398,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 103.82 75.88 0)
+			(at 233.68 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3413,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0618")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -3428,7 +3428,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "458b6b10-e899-41ed-b0c3-6d9c3c4dd54e")
-		(property "Reference" "#PWR0628"
+		(property "Reference" "#PWR039"
 			(at 89.85 95.01 0)
 			(effects
 				(font
@@ -3439,7 +3439,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 89.85 105.01 0)
+			(at 87.376 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3483,7 +3483,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0628")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3491,15 +3491,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 89.85 96.2 0)
+		(at 219.71 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "496967b0-c641-4185-b634-25368fbc8b01")
-		(property "Reference" "#PWR0617"
-			(at 89.85 91.2 0)
+		(property "Reference" "#PWR057"
+			(at 219.71 47.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,7 +3509,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 89.85 101.2 0)
+			(at 219.71 57.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,7 +3518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 89.85 96.2 0)
+			(at 219.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +3528,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 89.85 96.2 0)
+			(at 219.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,7 +3538,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 89.85 96.2 0)
+			(at 219.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3553,7 +3553,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0617")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3561,15 +3561,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 75.88 86.04 0)
+		(at 205.74 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4f7e7d43-df6a-4c8a-b51f-48908f2079b1")
-		(property "Reference" "R103"
-			(at 75.88 81.04 0)
+		(property "Reference" "R14"
+			(at 205.74 36.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +3578,7 @@
 			)
 		)
 		(property "Value" "78.7k"
-			(at 75.88 91.04 0)
+			(at 205.74 46.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3587,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 75.88 86.04 0)
+			(at 205.74 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3597,7 +3597,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 75.88 86.04 0)
+			(at 205.74 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,7 +3607,7 @@
 			)
 		)
 		(property "Description" "RT -> fsw approx 500kHz"
-			(at 75.88 86.04 0)
+			(at 205.74 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,7 +3617,7 @@
 			)
 		)
 		(property "Manufacturer" "KOA Speer Electronics, Inc."
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3626,7 +3626,7 @@
 			)
 		)
 		(property "MPN" "RK73H1ETTP7872F"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3635,7 @@
 			)
 		)
 		(property "DigiKey" "2019-RK73H1ETTP7872FTR-ND"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,7 +3652,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "R103")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3667,7 +3667,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5eb3fd46-748b-4966-bd66-40f9e7b1b288")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 80.96 20 0)
 			(effects
 				(font
@@ -3840,7 +3840,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3848,15 +3848,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 89.85 86.04 0)
+		(at 219.71 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "60ffdc7d-85e0-49ce-94bc-94abcc151918")
-		(property "Reference" "C54"
-			(at 89.85 81.04 0)
+		(property "Reference" "C18"
+			(at 219.71 36.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3865,7 +3865,7 @@
 			)
 		)
 		(property "Value" "22nF"
-			(at 89.85 91.04 0)
+			(at 219.71 46.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +3874,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 89.85 86.04 0)
+			(at 219.71 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +3884,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 89.85 86.04 0)
+			(at 219.71 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,7 +3894,7 @@
 			)
 		)
 		(property "Description" "Soft-start approx 11ms"
-			(at 89.85 86.04 0)
+			(at 219.71 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,7 +3904,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,7 +3913,7 @@
 			)
 		)
 		(property "MPN" "C0402C223K5REC7411"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +3922,7 @@
 			)
 		)
 		(property "DigiKey" "399-C0402C223K5REC7411TR-ND"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,7 +3939,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "C54")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3954,7 +3954,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "673dab4f-da01-478a-8487-59b1fb642a77")
-		(property "Reference" "#PWR0607"
+		(property "Reference" "#PWR038"
 			(at 88.58 61.99 0)
 			(effects
 				(font
@@ -4009,7 +4009,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0607")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4024,7 +4024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74738e0a-801a-499e-963e-5226d0bbb571")
-		(property "Reference" "#PWR0610"
+		(property "Reference" "#PWR043"
 			(at 96.2 61.99 0)
 			(effects
 				(font
@@ -4079,7 +4079,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0610")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4094,7 +4094,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76ff7411-446d-4381-9545-4e4c85eda3d8")
-		(property "Reference" "#PWR0622"
+		(property "Reference" "#PWR028"
 			(at 47.94 95.01 0)
 			(effects
 				(font
@@ -4105,7 +4105,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 47.94 105.01 0)
+			(at 45.72 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +4149,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0622")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4164,7 +4164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c180d3d-e99e-4dbe-9ea3-bfc608dfc258")
-		(property "Reference" "C45"
+		(property "Reference" "C12"
 			(at 75.88 105.17 0)
 			(effects
 				(font
@@ -4248,7 +4248,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "C45")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4263,7 +4263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ec30c58-c9a1-4ae9-86cc-0cb514e4c924")
-		(property "Reference" "C47"
+		(property "Reference" "C14"
 			(at 103.82 105.17 0)
 			(effects
 				(font
@@ -4347,7 +4347,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "C47")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -4362,7 +4362,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7eff816f-4951-4ebd-a93a-c862acb41bd4")
-		(property "Reference" "C46"
+		(property "Reference" "C13"
 			(at 89.85 105.17 0)
 			(effects
 				(font
@@ -4446,7 +4446,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "C46")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4454,15 +4454,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 47.94 96.2 0)
+		(at 177.8 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "81fa8ce9-fee2-4e67-a233-0439b96b9425")
-		(property "Reference" "#PWR0614"
-			(at 47.94 91.2 0)
+		(property "Reference" "#PWR054"
+			(at 177.8 47.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,7 +4472,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 47.94 101.2 0)
+			(at 177.8 57.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,7 +4481,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 47.94 96.2 0)
+			(at 177.8 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,7 +4491,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 47.94 96.2 0)
+			(at 177.8 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4501,7 +4501,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 47.94 96.2 0)
+			(at 177.8 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +4516,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0614")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4531,7 +4531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83af4b48-9d1d-491b-ace3-675323d8a774")
-		(property "Reference" "#PWR0626"
+		(property "Reference" "#PWR034"
 			(at 75.88 95.01 0)
 			(effects
 				(font
@@ -4542,7 +4542,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 75.88 105.01 0)
+			(at 73.406 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4586,7 +4586,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0626")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4594,15 +4594,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 117.79 96.2 0)
+		(at 247.65 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8484c1bf-e949-4f73-a869-041a7a7c5f29")
-		(property "Reference" "#PWR0619"
-			(at 117.79 91.2 0)
+		(property "Reference" "#PWR059"
+			(at 247.65 47.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +4612,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 117.79 101.2 0)
+			(at 247.65 57.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,7 +4621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 117.79 96.2 0)
+			(at 247.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +4631,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 117.79 96.2 0)
+			(at 247.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4641,7 +4641,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 117.79 96.2 0)
+			(at 247.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,7 +4656,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0619")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -4671,7 +4671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8813d4aa-0288-453f-b889-899197ff7faf")
-		(property "Reference" "#PWR0633"
+		(property "Reference" "#PWR049"
 			(at 117.79 115.33 0)
 			(effects
 				(font
@@ -4726,7 +4726,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0633")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4741,7 +4741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88ddc46b-d879-477a-8507-ed6a7f0b8672")
-		(property "Reference" "#PWR0623"
+		(property "Reference" "#PWR029"
 			(at 47.94 115.33 0)
 			(effects
 				(font
@@ -4796,7 +4796,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0623")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4804,15 +4804,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 20 96.2 0)
+		(at 143.51 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8a8bedba-43a8-482c-9d54-23da3c68d7b1")
-		(property "Reference" "#PWR0612"
-			(at 20 91.2 0)
+		(property "Reference" "#PWR052"
+			(at 143.51 58.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +4822,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 20 101.2 0)
+			(at 145.034 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4831,7 +4831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20 96.2 0)
+			(at 143.51 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,7 +4841,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20 96.2 0)
+			(at 143.51 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,7 +4851,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20 96.2 0)
+			(at 143.51 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4866,7 +4866,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0612")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4881,7 +4881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cc9ef2c-17ce-42a6-9e67-cea07c73f563")
-		(property "Reference" "#PWR0606"
+		(property "Reference" "#PWR037"
 			(at 86.04 61.99 0)
 			(effects
 				(font
@@ -4936,7 +4936,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0606")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4951,7 +4951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e241a7a-d202-4ac6-b845-1f426a8599d8")
-		(property "Reference" "#PWR0604"
+		(property "Reference" "#PWR047"
 			(at 110.17 23.81 0)
 			(effects
 				(font
@@ -5006,7 +5006,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0604")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5021,7 +5021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e9e8bb6-7796-4ee6-bf40-adedf84b780b")
-		(property "Reference" "#PWR0621"
+		(property "Reference" "#PWR027"
 			(at 33.97 115.33 0)
 			(effects
 				(font
@@ -5076,7 +5076,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0621")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5091,7 +5091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95b9d830-34e2-427b-bc88-6a11f76170c3")
-		(property "Reference" "#PWR0609"
+		(property "Reference" "#PWR042"
 			(at 93.66 61.99 0)
 			(effects
 				(font
@@ -5146,7 +5146,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0609")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5161,7 +5161,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97d0d258-8f3c-4ccc-a13a-aceb9b5e2256")
-		(property "Reference" "#PWR0624"
+		(property "Reference" "#PWR030"
 			(at 61.91 95.01 0)
 			(effects
 				(font
@@ -5172,7 +5172,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 61.91 105.01 0)
+			(at 59.69 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5216,7 +5216,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0624")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5231,7 +5231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98117b6e-6855-46e8-acfc-fd8ac5c3e9c3")
-		(property "Reference" "#PWR0602"
+		(property "Reference" "#PWR032"
 			(at 72.07 22.54 0)
 			(effects
 				(font
@@ -5286,7 +5286,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0602")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5301,7 +5301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c6dc983-c89b-4595-9433-a83e2b17d999")
-		(property "Reference" "#PWR0631"
+		(property "Reference" "#PWR046"
 			(at 103.82 115.33 0)
 			(effects
 				(font
@@ -5356,7 +5356,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0631")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5371,7 +5371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3bb6f36-8ce1-46c5-a512-2f8e2e82e0b3")
-		(property "Reference" "C51"
+		(property "Reference" "C8"
 			(at 20 105.17 0)
 			(effects
 				(font
@@ -5455,7 +5455,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "C51")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5463,15 +5463,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 117.79 86.04 0)
+		(at 247.65 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a6e3395d-049d-47ea-87a7-7d41b416c79b")
-		(property "Reference" "R105"
-			(at 117.79 81.04 0)
+		(property "Reference" "R16"
+			(at 247.65 36.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,7 +5480,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 117.79 91.04 0)
+			(at 247.65 46.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,7 +5489,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 117.79 86.04 0)
+			(at 247.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +5499,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 117.79 86.04 0)
+			(at 247.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5509,7 +5509,7 @@
 			)
 		)
 		(property "Description" "EN/UVLO inferior (RENB)"
-			(at 117.79 86.04 0)
+			(at 247.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5519,7 +5519,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +5528,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-07100KL"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +5537,7 @@
 			)
 		)
 		(property "DigiKey" "311-100KLRTR-ND"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,7 +5554,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "R105")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5569,7 +5569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa8b63dd-398a-453a-a5b9-9fdfeb1ddf73")
-		(property "Reference" "#PWR0635"
+		(property "Reference" "#PWR051"
 			(at 131.76 115.33 0)
 			(effects
 				(font
@@ -5624,7 +5624,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0635")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -5639,7 +5639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6ab8a1c-c8b0-48f3-881b-83c5e7165001")
-		(property "Reference" "#PWR0625"
+		(property "Reference" "#PWR031"
 			(at 61.91 115.33 0)
 			(effects
 				(font
@@ -5694,7 +5694,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0625")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5702,15 +5702,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 61.91 86.04 0)
+		(at 191.77 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "bcb59fe4-bd2c-492c-9446-0122627d6084")
-		(property "Reference" "C50"
-			(at 61.91 81.04 0)
+		(property "Reference" "C17"
+			(at 191.77 36.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,7 +5719,7 @@
 			)
 		)
 		(property "Value" "120pF"
-			(at 61.91 91.04 0)
+			(at 191.77 46.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5728,7 +5728,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 61.91 86.04 0)
+			(at 191.77 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5738,7 +5738,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 61.91 86.04 0)
+			(at 191.77 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5748,7 +5748,7 @@
 			)
 		)
 		(property "Description" "Feed-forward, || R33"
-			(at 61.91 86.04 0)
+			(at 191.77 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5758,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5767,7 +5767,7 @@
 			)
 		)
 		(property "MPN" "GRM1555C1H121JA01D"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5776,7 +5776,7 @@
 			)
 		)
 		(property "DigiKey" "490-1292-2-ND"
-			(at 0 0 0)
+			(at 129.86 -44.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,7 +5793,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "C50")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -5808,7 +5808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5b10ce5-5fe5-4934-b7b8-cf73e47b0d30")
-		(property "Reference" "C48"
+		(property "Reference" "C15"
 			(at 117.79 105.17 0)
 			(effects
 				(font
@@ -5892,7 +5892,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "C48")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5900,15 +5900,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 61.91 75.88 0)
+		(at 191.77 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cef59c7c-182e-46c1-af63-f0f95d79a310")
-		(property "Reference" "#PWR0615"
-			(at 61.91 70.88 0)
+		(property "Reference" "#PWR055"
+			(at 191.77 26.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5918,7 +5918,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 61.91 80.88 0)
+			(at 189.484 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,7 +5927,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 61.91 75.88 0)
+			(at 191.77 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5937,7 +5937,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 61.91 75.88 0)
+			(at 191.77 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,7 +5947,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 61.91 75.88 0)
+			(at 191.77 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,7 +5962,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0615")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5977,7 +5977,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfec45c8-0f13-4f06-8461-49e65965c246")
-		(property "Reference" "#PWR0629"
+		(property "Reference" "#PWR040"
 			(at 89.85 115.33 0)
 			(effects
 				(font
@@ -6032,7 +6032,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0629")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6047,7 +6047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d952cc38-4975-41ee-b6e3-064575335488")
-		(property "Reference" "#PWR0627"
+		(property "Reference" "#PWR035"
 			(at 75.88 115.33 0)
 			(effects
 				(font
@@ -6102,7 +6102,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0627")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6117,7 +6117,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db78d370-a931-47d2-a4de-c40dcd34d1dc")
-		(property "Reference" "C52"
+		(property "Reference" "C9"
 			(at 33.97 105.17 0)
 			(effects
 				(font
@@ -6201,7 +6201,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "C52")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6216,7 +6216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbd16ecf-1ffa-4a34-be54-106b89e33032")
-		(property "Reference" "#PWR0603"
+		(property "Reference" "#PWR033"
 			(at 72.07 42.94 0)
 			(effects
 				(font
@@ -6271,7 +6271,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0603")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6286,7 +6286,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e22fc5fb-280d-466d-a686-cc85ed6bb822")
-		(property "Reference" "#PWR0608"
+		(property "Reference" "#PWR041"
 			(at 91.12 61.99 0)
 			(effects
 				(font
@@ -6341,7 +6341,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0608")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -6349,15 +6349,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 33.97 75.88 0)
+		(at 163.83 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e2d2009f-1ddc-44d8-923c-1aa699286eba")
-		(property "Reference" "#PWR0613"
-			(at 33.97 70.88 0)
+		(property "Reference" "#PWR053"
+			(at 163.83 26.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6367,7 +6367,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 33.97 80.88 0)
+			(at 161.544 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6376,7 +6376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.97 75.88 0)
+			(at 163.83 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,7 +6386,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.97 75.88 0)
+			(at 163.83 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6396,7 +6396,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.97 75.88 0)
+			(at 163.83 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6411,7 +6411,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0613")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -6419,15 +6419,15 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 30 96.2 0)
+		(at 153.51 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f7e50c28-71ed-48ef-8733-1fc9136138b0")
-		(property "Reference" "#FLG0101"
-			(at 30 94.295 0)
+		(property "Reference" "#FLG03"
+			(at 153.51 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6436,7 +6436,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 30 91.805 0)
+			(at 153.51 48.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6444,7 +6444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30 96.2 0)
+			(at 153.51 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6453,7 +6453,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30 96.2 0)
+			(at 153.51 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,7 +6462,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30 96.2 0)
+			(at 153.51 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6475,7 +6475,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#FLG0101")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -6490,7 +6490,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa877ba9-b971-4439-a633-77c3946f87c3")
-		(property "Reference" "#PWR0605"
+		(property "Reference" "#PWR036"
 			(at 83.5 61.99 0)
 			(effects
 				(font
@@ -6545,7 +6545,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0605")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6560,7 +6560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb7a6f1d-0b4d-45a8-a174-af2f14d723a3")
-		(property "Reference" "C44"
+		(property "Reference" "C11"
 			(at 61.91 105.17 0)
 			(effects
 				(font
@@ -6644,7 +6644,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "C44")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6659,7 +6659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe7b614b-1176-4e98-9a79-9e0e6f8fccf6")
-		(property "Reference" "#PWR0632"
+		(property "Reference" "#PWR048"
 			(at 117.79 95.01 0)
 			(effects
 				(font
@@ -6670,7 +6670,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 117.79 105.01 0)
+			(at 115.57 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6714,7 @@
 		(instances
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/61a85188-b1b4-478e-b7cd-7bc5ed628b6c"
-					(reference "#PWR0632")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
