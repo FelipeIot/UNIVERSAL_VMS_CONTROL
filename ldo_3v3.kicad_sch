@@ -861,7 +861,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 106.68 87.55 0)
+			(at 104.902 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
