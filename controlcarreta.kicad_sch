@@ -8938,7 +8938,7 @@
 	)
 	(rectangle
 		(start 136.525 55.245)
-		(end 236.855 173.99)
+		(end 236.855 174.625)
 		(stroke
 			(width 0)
 			(type dash)
@@ -8960,6 +8960,28 @@
 		)
 		(uuid db9b9af6-a72f-4b16-85f9-ef7a3d750b73)
 	)
+	(text "SENSORES"
+		(exclude_from_sim no)
+		(at 58.674 151.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02720c11-640b-440b-a1cb-548cb8eed362")
+	)
+	(text "POWER\n"
+		(exclude_from_sim no)
+		(at 87.376 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f81daa9-4610-488c-a94f-063c0c395791")
+	)
 	(text "AUTO-PROGRAM: FT232 DTR/RTS -> EN/IO0 (esptool default_reset)"
 		(exclude_from_sim no)
 		(at 159.258 180.086 0)
@@ -8970,6 +8992,39 @@
 			(justify left bottom)
 		)
 		(uuid "7e2915e6-8c14-4c34-b118-47550a65f004")
+	)
+	(text "TVS de entrada: recorta transitorios en +24V (bateria 12V). SMAJ16A clamps ~26V << 42V LM76003"
+		(exclude_from_sim no)
+		(at 47.244 46.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4000000-0000-4000-8000-0000000000fd")
+	)
+	(text "MECANICA\n"
+		(exclude_from_sim no)
+		(at 101.854 195.072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3d3f66d-78dc-4be0-991c-703089f3e4c7")
+	)
+	(text "PROGRAMADOR \n"
+		(exclude_from_sim no)
+		(at 103.124 150.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e809f57f-fc44-4a37-945f-b7701f70c3d3")
 	)
 	(junction
 		(at 59.69 205.74)
@@ -9820,6 +9875,26 @@
 			(type default)
 		)
 		(uuid "a395e337-e6c9-4dc6-8fee-9a7e57f53abf")
+	)
+	(wire
+		(pts
+			(xy 109.22 88.9) (xy 109.22 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4000000-0000-4000-8000-000000000001")
+	)
+	(wire
+		(pts
+			(xy 116.84 88.9) (xy 116.84 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4000000-0000-4000-8000-000000000002")
 	)
 	(wire
 		(pts
@@ -14204,6 +14279,230 @@
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 109.22 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4000000-0000-4000-8000-0000000000b1")
+		(property "Reference" "#PWR0181"
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 109.22 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4000000-0000-4000-8000-0000000000b2")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4000000-0000-4000-8000-0000000000b3")
+		(property "Reference" "#PWR0182"
+			(at 116.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4000000-0000-4000-8000-0000000000b4")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47"
+					(reference "#PWR0182")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 113.03 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4000000-0000-4000-8000-0000000000c1")
+		(property "Reference" "D7"
+			(at 113.03 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMAJ16A"
+			(at 113.03 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=smaj"
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS unidireccional 16V standoff, clamp ~26V @ Ipp - proteccion entrada +24V(12V bateria)"
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMAJ16A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "SMAJ16ALFCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4000000-0000-4000-8000-0000000000c2")
+		)
+		(pin "2"
+			(uuid "a4000000-0000-4000-8000-0000000000c3")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47"
+					(reference "D7")
 					(unit 1)
 				)
 			)

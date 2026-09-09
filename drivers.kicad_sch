@@ -1291,6 +1291,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "A3-A8 de U6 sin usar: atadas a GND (74LVC entradas no deben flotar)"
+		(exclude_from_sim no)
+		(at 45.72 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3000000-0000-4000-8000-0000000000fe")
+	)
 	(no_connect
 		(at 154.94 68.58)
 		(uuid "071934d6-759e-4d22-8f0b-7bd754ae4081")
@@ -1316,20 +1327,12 @@
 		(uuid "185ca54c-cba9-4854-b9ac-eef61bbc1d75")
 	)
 	(no_connect
-		(at 64.135 141.605)
-		(uuid "1ddf3f72-a56a-4d89-af81-05ff05d55e29")
-	)
-	(no_connect
 		(at 231.775 68.58)
 		(uuid "1f6172d4-dc96-4605-a2ec-98be67aed482")
 	)
 	(no_connect
 		(at 154.94 114.3)
 		(uuid "298441c1-8af6-4171-87b4-d96508eff069")
-	)
-	(no_connect
-		(at 64.135 149.225)
-		(uuid "33195d42-c41e-4ab5-83b4-03676d3f262f")
 	)
 	(no_connect
 		(at 154.94 60.96)
@@ -1392,10 +1395,6 @@
 		(uuid "7c50786d-9832-4956-8668-13eed798e9e1")
 	)
 	(no_connect
-		(at 64.135 146.685)
-		(uuid "7e72b291-142d-40ae-b384-1ad17733b45d")
-	)
-	(no_connect
 		(at 100.965 144.145)
 		(uuid "87cb8af2-f320-464e-81a9-7f9f49a78ffb")
 	)
@@ -1428,10 +1427,6 @@
 		(uuid "b02e314c-dd30-47b9-8314-a25278945b08")
 	)
 	(no_connect
-		(at 64.135 144.145)
-		(uuid "b16fcda8-7932-42e0-8802-39be520c086d")
-	)
-	(no_connect
 		(at 155.575 137.795)
 		(uuid "b347a67e-ccea-4dd9-8937-975eac41213b")
 	)
@@ -1452,10 +1447,6 @@
 		(uuid "c7b6044a-35fa-41b1-99d2-18d5e4c7831a")
 	)
 	(no_connect
-		(at 64.135 136.525)
-		(uuid "c7fd9045-43f5-45ed-a3e5-566f4cf19b2d")
-	)
-	(no_connect
 		(at 154.94 93.98)
 		(uuid "cc4fd71b-78a7-4e27-b3e9-86c18cfc392d")
 	)
@@ -1474,10 +1465,6 @@
 	(no_connect
 		(at 155.575 135.255)
 		(uuid "d3f8527b-4b97-4e32-a667-30f126464190")
-	)
-	(no_connect
-		(at 64.135 139.065)
-		(uuid "d5f1d54d-9c74-4010-ae79-1c6825d6b53f")
 	)
 	(no_connect
 		(at 100.965 136.525)
@@ -2558,6 +2545,66 @@
 			(type default)
 		)
 		(uuid "a28173dd-94ae-4081-a8a2-be0cc138d622")
+	)
+	(wire
+		(pts
+			(xy 64.135 136.525) (xy 64.135 139.065)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3000000-0000-4000-8000-000000000001")
+	)
+	(wire
+		(pts
+			(xy 64.135 139.065) (xy 64.135 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3000000-0000-4000-8000-000000000002")
+	)
+	(wire
+		(pts
+			(xy 64.135 141.605) (xy 64.135 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3000000-0000-4000-8000-000000000003")
+	)
+	(wire
+		(pts
+			(xy 64.135 144.145) (xy 64.135 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3000000-0000-4000-8000-000000000004")
+	)
+	(wire
+		(pts
+			(xy 64.135 146.685) (xy 64.135 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3000000-0000-4000-8000-000000000005")
+	)
+	(wire
+		(pts
+			(xy 64.135 149.225) (xy 64.135 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3000000-0000-4000-8000-000000000006")
 	)
 	(wire
 		(pts
@@ -8174,6 +8221,71 @@
 			(project "controlcarreta"
 				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/8f78b2b0-68fd-499f-8fad-119f05b8293f"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.135 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3000000-0000-4000-8000-0000000000a1")
+		(property "Reference" "#PWR0180"
+			(at 64.135 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.135 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.135 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.135 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.135 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3000000-0000-4000-8000-0000000000a2")
+		)
+		(instances
+			(project "controlcarreta"
+				(path "/9232987b-e923-413e-abd9-77ced6cc4c47/8f78b2b0-68fd-499f-8fad-119f05b8293f"
+					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
