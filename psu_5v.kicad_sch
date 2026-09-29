@@ -2392,7 +2392,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "24.9k"
 			(at 177.8 46.91 0)
 			(effects
 				(font
@@ -2440,7 +2440,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-07100KL"
+		(property "MPN" "RC0402FR-0724K9L"
 			(at 129.86 -44.13 0)
 			(effects
 				(font
@@ -2449,7 +2449,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "311-100KLRTR-ND"
+		(property "DigiKey" "311-24.9KLRCT-ND"
 			(at 129.86 -44.13 0)
 			(effects
 				(font
@@ -2730,7 +2730,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10uH"
+		(property "Value" "6.8uH"
 			(at 143.51 48.18 0)
 			(effects
 				(font
@@ -2759,7 +2759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power inductor, Isat 13A"
+		(property "Description" "Power inductor 6.8uH, Isat 18A / Irms 11.5A"
 			(at 143.51 43.18 0)
 			(effects
 				(font
@@ -2769,7 +2769,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SRP1265A-100M"
+		(property "MPN" "SRP1265A-6R8M"
 			(at 143.51 43.18 0)
 			(effects
 				(font
@@ -2789,7 +2789,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "SRP1265A-100MTR-ND"
+		(property "DigiKey" "SRP1265A-6R8MCT-ND"
 			(at 123.51 -42.86 0)
 			(effects
 				(font
@@ -3000,7 +3000,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "33uF"
 			(at 131.76 115.17 0)
 			(effects
 				(font
@@ -3029,7 +3029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Salida ceramica 25V"
+		(property "Description" "Salida ceramica 33uF >=16V 1210 - MPN por definir"
 			(at 131.76 110.17 0)
 			(effects
 				(font
@@ -3039,7 +3039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3048,7 +3048,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM32EC81C476KE15K"
+		(property "MPN" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3057,7 +3057,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "490-16309-2-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3169,7 +3169,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "402k"
+		(property "Value" "100k"
 			(at 163.83 46.91 0)
 			(effects
 				(font
@@ -3217,7 +3217,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-07402KL"
+		(property "MPN" "RC0402FR-07100KL"
 			(at 129.86 -44.13 0)
 			(effects
 				(font
@@ -3226,7 +3226,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "YAG3151TR-ND"
+		(property "DigiKey" "311-100KLRTR-ND"
 			(at 129.86 -44.13 0)
 			(effects
 				(font
@@ -4272,7 +4272,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "33uF"
 			(at 103.82 115.17 0)
 			(effects
 				(font
@@ -4301,7 +4301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Salida ceramica 25V"
+		(property "Description" "Salida ceramica 33uF >=16V 1210 - MPN por definir"
 			(at 103.82 110.17 0)
 			(effects
 				(font
@@ -4311,7 +4311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -4320,7 +4320,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM32EC81C476KE15K"
+		(property "MPN" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -4329,7 +4329,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "490-16309-2-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -4962,7 +4962,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 110.17 26.35 0)
+			(at 107.696 22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +5380,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "470nF"
 			(at 20 115.17 0)
 			(effects
 				(font
@@ -5419,7 +5419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5428,7 +5428,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B104KB8NNNC"
+		(property "MPN" "GRM188R71E474KA12D"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5437,7 +5437,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "1276-1000-1-ND"
+		(property "DigiKey" "490-3291-1-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5718,7 +5718,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "120pF"
+		(property "Value" "47pF"
 			(at 191.77 46.91 0)
 			(effects
 				(font
@@ -5747,7 +5747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Feed-forward, || R33"
+		(property "Description" "Feed-forward, || R12 (RFBT)"
 			(at 191.77 41.91 0)
 			(effects
 				(font
@@ -5766,7 +5766,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM1555C1H121JA01D"
+		(property "MPN" "GRM1555C1H470JA01D"
 			(at 129.86 -44.13 0)
 			(effects
 				(font
@@ -5775,7 +5775,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "490-1292-2-ND"
+		(property "DigiKey" "490-5942-1-ND"
 			(at 129.86 -44.13 0)
 			(effects
 				(font
@@ -5817,7 +5817,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "33uF"
 			(at 117.79 115.17 0)
 			(effects
 				(font
@@ -5846,7 +5846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Salida ceramica 25V"
+		(property "Description" "Salida ceramica 33uF >=16V 1210 - MPN por definir"
 			(at 117.79 110.17 0)
 			(effects
 				(font
@@ -5856,7 +5856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -5865,7 +5865,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM32EC81C476KE15K"
+		(property "MPN" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -5874,7 +5874,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "490-16309-2-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(effects
 				(font

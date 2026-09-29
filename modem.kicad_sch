@@ -3259,7 +3259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/U-FL-R-SMT-1-10/2704589"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/U-FL-R-SMT-1-10/2391570"
 			(at 210.82 179.07 0)
 			(effects
 				(font
@@ -4433,7 +4433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206ZT0R00/1756901"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206ZT0R00/1756906"
 			(at 149.86 143.51 0)
 			(effects
 				(font
@@ -4602,7 +4602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TLMS1000/2822558"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TLMS1000-GS15/16652847"
 			(at 255.27 80.01 0)
 			(effects
 				(font
@@ -5222,7 +5222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/U-FL-R-SMT-1-10/2704589"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/U-FL-R-SMT-1-10/2391570"
 			(at 180.34 179.07 0)
 			(effects
 				(font

@@ -4388,7 +4388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/0015246101/WM7188-ND/3044404?itemSeq=356731655"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0015246101/3044404"
 			(at 170.815 66.04 0)
 			(effects
 				(font
@@ -5401,7 +5401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/0015246101/WM7188-ND/3044404?itemSeq=356731655"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0015246101/3044404"
 			(at 170.815 88.9 0)
 			(effects
 				(font
@@ -5615,7 +5615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/0015246101/WM7188-ND/3044404?itemSeq=356731655"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0015246101/3044404"
 			(at 170.815 111.76 0)
 			(effects
 				(font
@@ -5829,7 +5829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/0015246101/WM7188-ND/3044404?itemSeq=356731655"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0015246101/3044404"
 			(at 171.45 132.715 0)
 			(effects
 				(font
@@ -6043,7 +6043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/0015246101/WM7188-ND/3044404?itemSeq=356731655"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0015246101/3044404"
 			(at 215.265 66.04 0)
 			(effects
 				(font
@@ -6257,7 +6257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/0015246101/WM7188-ND/3044404?itemSeq=356731655"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0015246101/3044404"
 			(at 215.265 88.9 0)
 			(effects
 				(font
@@ -6471,7 +6471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/0015246101/WM7188-ND/3044404?itemSeq=356731655"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0015246101/3044404"
 			(at 215.265 111.76 0)
 			(effects
 				(font
@@ -6685,7 +6685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/0015246101/WM7188-ND/3044404?itemSeq=356731655"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0015246101/3044404"
 			(at 215.9 132.715 0)
 			(effects
 				(font

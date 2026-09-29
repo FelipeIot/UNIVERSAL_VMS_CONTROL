@@ -3355,7 +3355,7 @@
 			)
 		)
 		(property "Value" "LM76003"
-			(at 80.01 67.31 0)
+			(at 86.614 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4242,7 +4242,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10uH"
+		(property "Value" "4.7uH"
 			(at 119.38 76.12 0)
 			(effects
 				(font
@@ -4327,7 +4327,7 @@
 	)
 	(symbol
 		(lib_id "controlcarreta:+3V3_MODEM")
-		(at 119.38 81.28 0)
+		(at 119.38 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4335,7 +4335,7 @@
 		(dnp no)
 		(uuid "f0000000-0000-4000-8000-000000090784")
 		(property "Reference" "#PWR061"
-			(at 119.38 76.28 0)
+			(at 119.38 86.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,7 +4345,7 @@
 			)
 		)
 		(property "Value" "+3V3_MODEM"
-			(at 113.792 83.82 0)
+			(at 125.73 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4413,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "100k"
 			(at 133.35 76.12 0)
 			(effects
 				(font
@@ -4582,7 +4582,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "432k"
+		(property "Value" "43.5k"
 			(at 147.32 76.12 0)
 			(effects
 				(font
@@ -5765,7 +5765,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "470nF"
 			(at 119.38 107.87 0)
 			(effects
 				(font
@@ -7467,7 +7467,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "56uF"
 			(at 231.14 107.87 0)
 			(effects
 				(font
